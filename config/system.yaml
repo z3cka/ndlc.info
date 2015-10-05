@@ -4,7 +4,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: bootstrap
+  theme: bootstrapndlc
   markdown_extra: false
   process:
     markdown: true
