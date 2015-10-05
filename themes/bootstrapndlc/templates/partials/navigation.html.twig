@@ -14,7 +14,7 @@
             <ul class="nav navbar-nav">
                 {% for page in pages.children.visible %}
                     {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-                    {% if config.themes.bootstrap.dropdown.enabled and page.children.visible.count > 0 %}
+                    {% if config.themes.bootstrapndlc.dropdown.enabled and page.children.visible.count > 0 %}
                         <li class="dropdown {{ current_page }}">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ page.menu }} <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
