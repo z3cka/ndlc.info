@@ -1,0 +1,30 @@
+name: BootstrapNDLC
+version: 1.4.1
+description: "Custom theme for http://ndlc.info based the **Bootstrap** Framework"
+icon: globe
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-theme-bootstrap
+demo: http://demo.getgrav.org/bootstrap-skeleton/
+keywords: bootstrap, theme, framework
+bugs: https://github.com/getgrav/grav-theme-bootstrap/issues
+license: MIT
+
+dependencies:
+  - bootstrapper
+
+form:
+  validation: strict
+  fields:
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in navbar
+        highlight: 1
+        default: 1
+        options:
+          1: Enabled
+          0: Disabled
+        validate:
+          type: bool
