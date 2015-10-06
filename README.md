@@ -12,5 +12,5 @@
 
 ## Installation
 1. Install Grav to webserver docroot
-1. `git clone git@github.com:UCLALibrary/ndlc.info.git <docroot>`
-1. `cd <docroot> && bin/grav install`
+1. `cd <docroot> && rm -rf user && git clone git@github.com:UCLALibrary/ndlc.info.git user`
+1. `bin/grav install`

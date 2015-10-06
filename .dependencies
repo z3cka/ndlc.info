@@ -33,7 +33,7 @@ links:
         scm: github
     form:
         src: grav-plugin-form
-        path: user/plugins/bootstrapper
+        path: user/plugins/form
         scm: github
     email:
         src: grav-plugin-email
