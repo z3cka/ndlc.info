@@ -1,5 +1,7 @@
 ---
 title: Venue
+published: false
+visible: false
 ---
 
 # Venue

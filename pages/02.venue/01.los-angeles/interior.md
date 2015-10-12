@@ -1,7 +1,7 @@
 ---
 title: 'Los Angeles'
-published: true
-visible: true
+published: false
+visible: false
 template: interior
 ---
 
