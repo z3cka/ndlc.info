@@ -1,6 +1,6 @@
 ---
 title: 'Getting Here'
-published: true
+published: false
 ---
 
 # Getting Here
