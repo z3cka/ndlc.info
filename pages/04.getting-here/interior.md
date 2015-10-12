@@ -3,4 +3,6 @@ title: 'Getting Here'
 published: true
 ---
 
-Map and Directions
+# Getting Here
+
+### Map and Directions
