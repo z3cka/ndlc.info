@@ -2,38 +2,13 @@
 title: Home
 ---
 
-# Grav is Running!
-## You have installed **Grav** successfully
+# Hoc ipsum elegantius poni meliusque potuit.
+## Sed id ne cogitari quidem potest quale sit, ut non repugnet ipsum sibi.
+   
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid ergo aliud intellegetur nisi uti ne quae pars naturae neglegatur? Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Cum ageremus, inquit, vitae beatum et eundem supremum diem, scribebamus haec. Summum ením bonum exposuit vacuitatem doloris; Egone non intellego, quid sit don Graece, Latine voluptas? Duo Reges: constructio interrete. Omnes enim iucundum motum, quo sensus hilaretur. Est igitur officium eius generis, quod nec in bonis ponatur nec in contrariis.
 
-Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **antimatter** theme to get you started.
+### Sed id ne cogitari quidem potest quale sit.
 
->>>>> If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
+Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Sed virtutem ipsam inchoavit, nihil amplius. Mihi, inquam, qui te id ipsum rogavi? Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Verba tu fingas et ea dicas, quae non sentias? Efficiens dici potest. Miserum hominem! Si dolor summum malum est, dici aliter non potest. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Illi enim inter se dissentiunt.
 
-### Find out all about Grav
-
-* Learn about **Grav** by checking out our dedicated [Learn Grav](http://learn.getgrav.org) site.
-* Download **plugins**, **themes**, as well as other Grav **skeleton** packages from the [Grav Downloads](http://getgrav.org/downloads) page.
-* Check out our [Grav Development Blog](http://getgrav.org/blog) to find out the latest goings on in the Grav-verse.
-
-### Edit this Page
-
-To edit this page, simply navigate to the folder you installed **Grav** into, and then browse to the `user/pages/01.home` folder and open the `default.md` file in your [editor of choice](http://learn.getgrav.org/basics/requirements).  You will see the content of this page in [Markdown format](http://learn.getgrav.org/content/markdown).
-
-### Create a New Page
-
-Creating a new page is a simple affair in **Grav**.  Simply follow these simple steps:
-
-1. Navigate to your pages folder: `user/pages/` and create a new folder.  In this example, we will use [explicit default ordering](http://learn.getgrav.org/content/content-pages) and call the folder `02.mypage`.
-2. Launch your text editor and paste in the following sample code:
-
-        ---
-        title: My New Page
-        ---
-        # My New Page!
-
-        This is the body of **my new page** and I can easily use _Markdown_ syntax here.
-
-3. Save this file in the `user/pages/02.mypage/` folder as `default.md`. This will tell **Grav** to render the page using the **default** template.
-4. That is it! Reload your browser to see your new page in the menu.
-
->>> NOTE: The page will automatically show up in the Menu after the "Home" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
+Videmusne ut pueri ne verberibus quidem a contemplandis rebus perquirendisque deterreantur? Sed virtutem ipsam inchoavit, nihil amplius. Mihi, inquam, qui te id ipsum rogavi? Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Verba tu fingas et ea dicas, quae non sentias? Efficiens dici potest. Miserum hominem! Si dolor summum malum est, dici aliter non potest. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Illi enim inter se dissentiunt.
