@@ -150,6 +150,22 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p 
 
 /* custom jumbotron
 __________________________*/
+span.herotext {
+  /*bottom: 610px;*/
+  font-family: sans-serif;
+  font-size: 80%;
+  color: #fff;
+  padding: 5px 20px;
+  width: 50%;
+  line-height: 133%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  float: right; }
+
+span.herotext a {
+  color: #B9B713;
+  font-weight: 600;
+}
 
 .hero-unit {
   background-image:url(../assets/hero_bg.jpg);
@@ -168,7 +184,7 @@ __________________________*/
 
 }
 .hero-unit h1 {
-  color: #FFFFFF;
+  color: #FFF;
   font-size: 60px;
   letter-spacing: -1px;
   line-height: 1;
@@ -183,10 +199,12 @@ __________________________*/
 }
 
 /* Large desktop */
-@media (min-width: 1200px) {
-
+@media (min-width: 1024px) {
+  span.herotext {
+    font-size: 100%;
+    padding: 80px 30px 30px 30px;
+  }
 }
-
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
@@ -214,4 +232,8 @@ __________________________*/
   .fill{
     height:100px;
   }
-}
+  span.herotext {
+    font-size: 40%;
+    padding: 10px 10px;
+    line-height: 133%;
+    background: transparent; } }
