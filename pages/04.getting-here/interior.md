@@ -1,6 +1,8 @@
 ---
 title: 'Getting Here'
-published: true
+published: false
 ---
 
-Map and Directions
+# Getting Here
+
+### Map and Directions
