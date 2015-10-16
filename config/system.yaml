@@ -36,6 +36,8 @@ errors:
 
 debugger:
   enabled: false
-  twig: true
+  twig: false
   shutdown:
     close_connection: true
+
+
