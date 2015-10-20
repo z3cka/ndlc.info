@@ -290,24 +290,53 @@ h3 {
   text-transform: uppercase;
   font-size: 16px; }
 
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  font-family: 'PT Sans', sans-serif; }
+
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-  font-family: "pt sans"; }
+  font-family: 'PT Sans', sans-serif; }
 
 .navbar-nav, .btn-default {
-  font-family: "pt sans"; }
+  font-family: 'PT Sans', sans-serif; }
 
 /*Layout*/
 .circular {
+  background: url(../assets/ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-program {
+  background: url(../assets/conference_hall_ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-registration {
+  background: url(../assets/img-registration.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-venue {
+  background: url(../assets/Carnesale_Exterior.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-program, .circular, .circular-registration, .circular-venue {
   width: 300px;
   height: 300px;
   border-radius: 150px;
   border: 3px solid #7BAF4D;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  background: url(../assets/ucla.jpg) no-repeat;
-  background-size: 100%;
   background-position: center;
-  margin: 10px 50px; }
+  margin: 10px 0px; }
+
+/* Table Styles
+_________________________________________________ */
+.table-striped-column > tbody > tr td:nth-of-type(even) {
+  background-color: #f9f9f9; }
+
+table.table tr th {
+  background-color: #3284BF !important;
+  color: #fff; }
+
+table.table {
+  font-family: "PT Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -437,10 +466,16 @@ span.herotext a {
   background-size: cover; }
 
 /* Large desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1240px) {
   span.herotext {
     font-size: 100%;
     padding: 80px 30px 30px 30px; } }
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .hero-unit {
+    height: 250px; }
+
+  .fill {
+    height: 240px; } }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
