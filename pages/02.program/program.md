@@ -1,5 +1,5 @@
 ---
-title: 'Program & Schedule'
+title: Program
 published: true
 ---
 
