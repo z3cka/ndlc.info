@@ -12,5 +12,8 @@ visible: true
 ## University of California at Los Angeles
    
 + UCLA Carnesale Commons, on the UCLA campus.
- - On-campus housing; private rooms; includes meals.
- - Room rate is $149/night*
+ - On-campus housing.
+ - Room rate is $139/night (private room with private bathroom). 
+ - All rooms are non-smoking, and include air conditioning, cable television, daily housekeeping service, telephones, bathroom amenities, and Internet access. 
+ - The room rate includes meals in our award-winning residential restaurants and complimentary access to recreational facilities on campus.
+ - Accessible rooms are available upon request.
