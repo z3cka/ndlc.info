@@ -16,6 +16,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
         branch: master
+    formfilefield:
+        url: https://github.com/z3cka/grav-plugin-formfilefield
+        path: user/plugins/formfilefield
+        branch: master
     login:
         url: https://github.com/getgrav/grav-plugin-login
         path: user/plugins/login
@@ -42,6 +46,10 @@ links:
     form:
         src: grav-plugin-form
         path: user/plugins/form
+        scm: github
+    formfilefield:
+        src: grav-plugin-formfilefield
+        path: user/plugins/formfilefield
         scm: github
     login:
         src: grav-plugin-login
