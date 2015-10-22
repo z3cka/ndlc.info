@@ -59,7 +59,7 @@ visible: true
                 </tr>
                 <tr>
                     <td>10:30 AM - 11:45 AM</td>
-                    <td>Breakout Sessions (6 concurrent sessions)</td>
+                    <td>Breakout Sessions</td>
                 </tr>
                 <tr>
                     <td>11:45 AM - 1:15 PM</td>
@@ -72,7 +72,7 @@ visible: true
                 </tr>
                 <tr>
                     <td>3:00 PM - 4:15 PM</td>
-                    <td>Breakout Sessions (6 concurrent sessions)</td>
+                    <td>Breakout Sessions</td>
                 </tr>
                 <tr>
                     <td>7:00 PM</td>
@@ -92,7 +92,7 @@ visible: true
                 </tr>
                 <tr>
                     <td>9:00 AM - 10:15 AM</td>
-                    <td>Breakout Sessions (6 concurrent sessions)</td>
+                    <td>Breakout Sessions</td>
                 </tr>
                 <tr>
                     <td>9:00 AM - 2:30 PM</td>
@@ -108,11 +108,11 @@ visible: true
                 </tr>
                 <tr>
                     <td>1:30 PM - 2:45 PM</td>
-                    <td>Breakout Sessions (6 concurrent sessions)</td>
+                    <td>Breakout Sessions</td>
                 </tr>
                 <tr>
                     <td>3:00 PM - 4:15 PM</td>
-                    <td>Closing Keynote / Rousing Sendoff</td>
+                    <td>Closing Keynote</td>
                 </tr>
             </tbody>
             <thead>
