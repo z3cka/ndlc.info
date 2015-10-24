@@ -1,0 +1,20 @@
+<div class="alert">{{ form.message }}</div>
+<form name="{{ form.name }}"
+      {% if formfilefield.attributes.enctype is defined %}enctype="{{ formfilefield.attributes.enctype }}" {% endif %}
+      action="{{ uri.rootUrl ~ (form.action|default(page.route)) }}"
+      method="{{ form.method|upper|default('POST') }}">
+{% for field in form.fields %}
+    {% set value = form.value(field.name) %}
+    <div>
+        <label class="control-label col-xs-12 col-sm-12 col-lg-12">
+
+        {% include "forms/fields/#{field.type}/#{field.type}.html.twig" %}
+    </div>
+{% endfor %}
+
+  <div class="button">
+  {% for button in form.buttons %}
+      <button class="btn btn-danger" type="{{ button.type|default('submit') }}">{{ button.value|default('SUBMIT PAPER') }}</button>
+  {% endfor %}
+  </div>
+</form>

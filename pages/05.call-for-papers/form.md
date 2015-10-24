@@ -94,7 +94,7 @@ form:
 
   buttons:
     - type: submit
-      value: Submit
+      value: SUBMIT PAPER
     - type: reset
       value: Reset
   process:
