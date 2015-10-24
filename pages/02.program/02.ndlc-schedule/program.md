@@ -1,23 +1,23 @@
 ---
-title: 'NDLC Schedule'
-metadata:
-    description: Save the Date for the National Diversity in Libraries Conference (NDLC) 2016 UCLA, Los Angeles, California where library staff discuss issues relating to diversity.
-    keywords: diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee, schedule
-    author: UCLA Library
+title: 'Tentative  Schedule'
 published: true
+metadata:
+    description: 'Save the Date for the National Diversity in Libraries Conference (NDLC) 2016 UCLA, Los Angeles, California where library staff discuss issues relating to diversity.'
+    keywords: 'diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee, schedule'
+    author: 'UCLA Library'
 process:
     markdown: true
     twig: true
 visible: true
 ---
 
-# Schedule
+# Tentative Schedule
 <div class="table-responsive">
         <table class="table table-bordered table-striped">
             <thead>
                 <tr>
                     <th>Wednesday, August 10</th>
-                    <th>Pre-Conference & Opening Reception</th>
+                    <th>Pre-Conference &amp; Opening Reception</th>
                 </tr>
             </thead>
             <tbody>
@@ -41,7 +41,7 @@ visible: true
             <thead>
                 <tr>
                     <th>Thursday, August 11</th>
-                    <th>Conference Full Day Program & Reception</th>
+                    <th>Conference Full Day Program &amp; Reception</th>
                 </tr>
             </thead>
             <tbody>
@@ -63,7 +63,7 @@ visible: true
                 </tr>
                 <tr>
                     <td>11:45 AM - 1:15 PM</td>
-                    <td>Lunch (covered by meal plan)</td>
+                    <td>Lunch</td>
                 </tr>
                 <tr>
                     <td>1:30 PM - 2:45 PM</td>
@@ -82,7 +82,7 @@ visible: true
             <thead>
                 <tr>
                     <th>Friday, August 12</th>
-                    <th>Conference Full Day Program & Closing</th>
+                    <th>Conference Full Day Program &amp; Closing</th>
                 </tr>
             </thead>
             <tbody>
@@ -100,11 +100,11 @@ visible: true
                 </tr>
                 <tr>
                     <td>10:30 AM - 11:45 AM</td>
-                    <td>Poster Sessions & Exhibits</td>
+                    <td>Poster Sessions &amp; Exhibits</td>
                 </tr>
                 <tr>
                     <td>11:45 AM - 1:15 PM</td>
-                    <td>Lunch (covered by meal plan)</td>
+                    <td>Lunch</td>
                 </tr>
                 <tr>
                     <td>1:30 PM - 2:45 PM</td>
