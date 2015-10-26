@@ -18,9 +18,6 @@
                         <li class="dropdown {{ current_page }}">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ page.menu }} <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                {% set current_parent = page.active ? 'active' : '' %}
-                                <li class="{{ current_parent }}"><a href="{{ page.url }}">{{ page.menu }}</a></li>
-                                <li class="divider"></li>
                                 {% for child in page.children.visible %}
                                     {% set current_child = (child.active or child.activeChild) ? 'active' : '' %}
                                     <li class="{{ current_child }}"><a href="{{ child.url }}">{{ child.menu }}</a></li>
