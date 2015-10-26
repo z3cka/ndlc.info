@@ -89,7 +89,7 @@ form:
       options:
         collectionsAndAccess: collections and access
         programmingOutreachAdvocacy: programming, outreach, advocacy
-        personnelManegementOrganization: personnel, manegement, organization
+        personnelManagementOrganization: personnel, management, organization
         challengingTopics: challenging topics
 
   buttons:
