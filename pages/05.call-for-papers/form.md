@@ -1,5 +1,9 @@
 ---
-title: Call for Papers
+title: Call for Proposals
+metadata:
+    description: Save the Date for the National Diversity in Libraries Conference (NDLC) 2016 UCLA, Los Angeles, California where library staff discuss issues relating to diversity.
+    keywords: diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee, program, submit, submission, call for papers, proposal submission
+    author: UCLA Library
 form:
   name: callForProposals
   fields:
@@ -92,6 +96,16 @@ form:
         personnelManagementOrganization: personnel, management, organization
         challengingTopics: challenging topics
 
+    - name: program-format
+      label: Program format
+      type: radio
+      options:
+        panel: panel
+        workshop: workshop
+        roundtable: roundtable
+        indvidualPaperPresentation: individual paper/presentation
+        other: other
+
   buttons:
     - type: submit
       value: SUBMIT PAPER
@@ -106,4 +120,6 @@ form:
     - display: thankyou
 ---
 
-# Call for Papers
+# Proposal Submission
+
+## Deadline extended to December 15, 2015, 11:59pm PST. 
