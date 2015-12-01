@@ -41,9 +41,9 @@ form:
       validate:
         required: true
 
-    - name: additional-participant
+    - name: additional-participants
       type: spacer
-      title: Additional participant
+      title: Additional participants
     - name: name-additional-participant
       label: Name
       placeholder: "Enter additional participant's name"
@@ -62,7 +62,14 @@ form:
     - name: phone-additional-participant
       label: Phone
       type: text
-
+    - name: extra-participants
+      label: If your entry has more than two participants, please enter their information in this box.
+      placeholder:
+      type: textarea
+    - name: additional-participants
+      type: spacer
+      title: Proposal Details
+      
     - name: proposal-title
       label: Proposal title
       type: text
@@ -105,6 +112,9 @@ form:
         roundtable: roundtable
         indvidualPaperPresentation: individual paper/presentation
         other: other
+    - name: program-format-other
+      type: text
+      placeholder: 'If Other enter format type here'
 
   buttons:
     - type: submit
