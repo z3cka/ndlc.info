@@ -1,5 +1,9 @@
 ---
-title: Call for Papers
+title: Proposal Submission
+metadata:
+    description: Save the Date for the National Diversity in Libraries Conference (NDLC) 2016 UCLA, Los Angeles, California where library staff discuss issues relating to diversity.
+    keywords: diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee, program, submit, submission, call for papers, proposal submission
+    author: UCLA Library
 form:
   name: callForProposals
   fields:
@@ -37,9 +41,9 @@ form:
       validate:
         required: true
 
-    - name: additional-participant
+    - name: additional-participants
       type: spacer
-      title: Additional participant
+      title: Additional participants
     - name: name-additional-participant
       label: Name
       placeholder: "Enter additional participant's name"
@@ -58,7 +62,14 @@ form:
     - name: phone-additional-participant
       label: Phone
       type: text
-
+    - name: extra-participants
+      label: If your entry has more than two participants, please enter their information in this box.
+      placeholder:
+      type: textarea
+    - name: additional-participants
+      type: spacer
+      title: Proposal Details
+      
     - name: proposal-title
       label: Proposal title
       type: text
@@ -92,6 +103,19 @@ form:
         personnelManagementOrganization: personnel, management, organization
         challengingTopics: challenging topics
 
+    - name: program-format
+      label: Program format
+      type: radio
+      options:
+        panel: panel
+        workshop: workshop
+        roundtable: roundtable
+        indvidualPaperPresentation: individual paper/presentation
+        other: other
+    - name: program-format-other
+      type: text
+      placeholder: 'If Other enter format type here'
+
   buttons:
     - type: submit
       value: SUBMIT PAPER
@@ -106,4 +130,6 @@ form:
     - display: thankyou
 ---
 
-# Call for Papers
+# Proposal Submission
+
+## Deadline extended to December 15, 2015, 11:59pm PST. 

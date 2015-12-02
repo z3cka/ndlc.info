@@ -1,3 +1,7 @@
+/*Changes to form*/
+.form-field .col-sm-10 textarea.form-control {
+  margin-top: 20px;
+}
 /* Constrain the width */
 .container {
   width: auto;
@@ -286,5 +290,8 @@ html.js.csstransforms3d body {
     font-size: 40%;
     padding: 10px 10px;
     line-height: 133%;
+  }
+  .form-field .col-sm-10 textarea.form-control {
+    margin-top: 0;
   }
 }
