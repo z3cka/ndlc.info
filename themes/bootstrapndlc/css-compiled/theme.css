@@ -320,7 +320,12 @@ h3 {
   background: url(../assets/Carnesale_Exterior.jpg) no-repeat;
   background-size: 200%; }
 
-.circular-program, .circular, .circular-registration, .circular-venue {
+.circular-about {
+  background: url(../assets/about.jpg) no-repeat;
+  background-size: 100%; }
+
+
+.circular-program, .circular, .circular-registration, .circular-venue, .circular-about {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -472,6 +477,10 @@ span.herotext a {
 
 /*form styles
 _______________________*/
+
+.form-field label.control-label.col-sm-2 {
+  padding: 0;
+}
 html.js.csstransforms3d body {
   font-family: PT Sans, sans-serif; }
 
