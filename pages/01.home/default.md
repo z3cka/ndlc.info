@@ -6,7 +6,6 @@ metadata:
     author: UCLA Library
 ---
 
-## [NDLC Schedule](../02.program/02.ndlc-schedule/program.md)
+## [NDLC Schedule](../02.ndlc-schedule/program.md)
 
 ### [Low-cost housing on the UCLA campus](../04.venue/venue.md)
-
