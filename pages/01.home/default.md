@@ -6,10 +6,6 @@ metadata:
     author: UCLA Library
 ---
 
-## [NDLC Schedule](../02.program/02.ndlc-schedule/program.md)
+## [NDLC Schedule](../02.ndlc-schedule/program.md)
 
-### [Call for proposals](NDLC_CFP.pdf)
-  Proposals will be accepted until **_December 15, 2015, 11:59pm PST_**
-  
 ### [Low-cost housing on the UCLA campus](../04.venue/venue.md)
-
