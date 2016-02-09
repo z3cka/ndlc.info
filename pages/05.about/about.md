@@ -14,5 +14,5 @@ The National Diversity in Libraries Conference (NDLC '16), co-sponsored by the U
 <br />
 <a href="mailto:ndlc@library.ucla.edu">ndlc@library.ucla.edu</a><br />
 <a href="https://twitter.com/ndlc16">@NDLC16 (twitter)</a><br />
-National Diversity in Libraries Conference 2016 at UCLA (Facebook)
+<a href="https://www.facebook.com/ndlc16/">National Diversity in Libraries Conference 2016 at UCLA (Facebook)</a><br >
 
