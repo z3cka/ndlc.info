@@ -282,6 +282,10 @@ body.fixed-nav {
   font-size: 22px; }
 
 /* NDLC styles */
+iframe, object, embed {
+  max-width: 100%;
+  overflow-y: hidden;
+}
 body {
   font-family: 'EB Garamond', serif;
   font-size: 16px; }
@@ -322,10 +326,13 @@ h3 {
 
 .circular-about {
   background: url(../assets/about.jpg) no-repeat;
-  background-size: 100%; }
+  background-size: 200%; }
 
+.circular-schedule {
+  background: url(../assets/schedule.jpg) no-repeat;
+  background-size: 200%; }
 
-.circular-program, .circular, .circular-registration, .circular-venue, .circular-about {
+.circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -477,7 +484,6 @@ span.herotext a {
 
 /*form styles
 _______________________*/
-
 .form-field label.control-label.col-sm-2 {
   padding: 0;
 }
