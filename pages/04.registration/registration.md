@@ -9,7 +9,8 @@ published: true
 
 # Registration
 
-## Registration will open February 1, 2016.
-
-### Registration fee is expected to be less than $250.
+### Early registration March 15-April 30: $175
+### Regular registration after May 1: $225
+### Student Registration: $100
+### Pre-conference (agenda forthcoming): $50
   
