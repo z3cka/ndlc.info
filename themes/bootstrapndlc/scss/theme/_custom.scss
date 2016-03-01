@@ -195,13 +195,12 @@ span.herotext {
   font-family: sans-serif;
   font-size: 130%;
   color: #fff;
-  padding: 5px 20px;
+  padding: 30px 0 10px 80px;
   width: 50%;
   line-height: 133%;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-  float: right;
-  padding-top:80px;
+  float: left;
 }
 
 span.herotext a {
@@ -213,7 +212,7 @@ span.herotext a {
   background-image:url(../assets/hero_bg.jpg);
   background-size:cover;
   background-color: #EEEEEE;
-  height:407px;
+  height:360px;
   margin: -20px 0 20px;
 
 }
@@ -237,8 +236,25 @@ span.herotext a {
   color: #FFFFFF;
 
 }
-.fill{width:100%;height:450px;background-position:center;background-size:cover;
+.fill{width:100%;height:307px;background-position:center;background-size:cover;
 }
+
+/*twitter timeline feed
+______________________*/
+.SandboxRoot.env-wide .GridLayoutRow--1and2 .GridLayoutRow-cell--0 .GridLayoutTextOnlyTweet, .SandboxRoot.env-wide .GridLayoutRow--2and1 .GridLayoutRow-cell--2 .GridLayoutTextOnlyTweet {
+  font-size: 1.5rem !important;
+  font-weight: 300;
+}
+.GridLayoutTextOnlyTweet-contents {
+  display: table-cell;
+  vertical-align: top !important;
+}
+.grid-Footer {
+  background-color: #000000;
+  font-size: 0.75rem;
+  padding: 15px;
+}
+
 /*form styles
 _______________________*/
 html.js.csstransforms3d body {
@@ -248,10 +264,13 @@ html.js.csstransforms3d body {
 
 @media (min-width: 1024px) and (max-width: 1180px) {
   .hero-unit {
-    height: 250px;
+    height: 360px;
   }
   .fill {
-    height: 240px;
+    height: 200px;
+  }
+  .span.herotext {
+    padding-top:10px;
   }
 }
 @media (max-width: 1180px){
@@ -264,26 +283,27 @@ html.js.csstransforms3d body {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
-    height: 300px;
+    height: 250px;
   }
   .fill {
-    height: 200px;
   }
   span.herotext {
-    font-size: 85%;
-    padding-top:10px;
+    font-size: 90%;
+    padding-top: 10px;
+    padding-left: 34px;
   }
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .hero-unit {
-    height:200px;
+    height:150px;
   }
   .fill{
-    height:200px;
+    height:150px;
   }
   span.herotext {
-    font-size: 70%;
+    font-size: 75%;
+    padding-left:30px;
   }
 }
 
@@ -293,14 +313,69 @@ html.js.csstransforms3d body {
     height:100px;
   }
   .fill{
-    height:100px;
+    height:112px;
   }
   span.herotext {
-    font-size: 40%;
-    padding: 10px 10px;
+    font-size: 45%;
+    padding: 10px 25px;
     line-height: 133%;
   }
   .form-field .col-sm-10 textarea.form-control {
     margin-top: 0;
+  }
+}
+/*ipad  mini portrait*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .fill{
+    height:182px;
+  }
+}
+/*iphone 6 portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+  .fill {
+    height: 82px;
+  }
+  span.herotext {
+    font-size: 45%;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+}
+/*iphone 5 and 5s portrait*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .fill {
+    height: 75px;
+  }
+  span.herotext {
+    font-size: 45%;
+    padding-left: 16px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+}
+/*iphone 5 and 5s landscape*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {  .fill {
+  height: 122px;
+}
+  span.herotext {
+    font-size: 50%;
+    padding-left: 27px;
   }
 }
