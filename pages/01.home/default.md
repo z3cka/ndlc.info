@@ -7,8 +7,7 @@ metadata:
 ---
 # Early registration begins March 15
 
-## Poster session proposals being accepted through February 29. 
-### [Submit your poster proposal here.](../02.ndlc-program/program.md)
+## Poster session proposals were accepted through February 29.
 
 ### [NDLC Schedule](../03.ndlc-schedule/schedule.md)
 
