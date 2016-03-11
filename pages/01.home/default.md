@@ -5,10 +5,8 @@ metadata:
     keywords: diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee
     author: UCLA Library
 ---
-# Early registration begins March 15
+# [Register Now](../04.registration/registration.md)
 
-## Poster session proposals were accepted through February 29.
+## [See Keynote Speakers](../02.ndlc-program/program.md)
 
-### [NDLC Schedule](../03.ndlc-schedule/schedule.md)
-
-### [Low-cost housing on the UCLA campus](../07.venue/venue.md)
+## [Reserve Your Room Now](../05.housing/about.md)

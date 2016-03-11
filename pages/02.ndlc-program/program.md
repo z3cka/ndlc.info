@@ -11,9 +11,12 @@ process:
 visible: true
 ---
 
-### Program proposals were accepted through December 15, 2015
-### Poster session proposals were accepted through February 29, 2016
+## Keynote Speakers and Program Session will be announced soon!
 
+<!--### Opening Keynote, <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, 
+activist and educator-->
 
-<!--<iframe src="https://docs.google.com/forms/d/1rndfTu2T35LLyb0bZhw1NDP3Mk9aweELKA_fhSpsPjg/viewform?embedded=true
-"width="1000" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+<!--### Closing Keynote, <a href="https://chrisbourg.wordpress.com/about/" target="_blank">Chris Bourg</a>, Director MIT
+ Libraries<br /> with <a href="http://www.inthelibrarywiththeleadpipe.org/author/april-hathcock/" 
+ target="_blank">April Hathcock</a>, New York Public Library-->
+ 

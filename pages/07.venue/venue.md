@@ -8,12 +8,7 @@ metadata:
 visible: true
 ---
 
-# Venue
-## University of California at Los Angeles
-   
-+ UCLA Carnesale Commons, on the UCLA campus.
- - On-campus housing.
- - Room rate is $139/night, one person per room (private room with private bathroom). 
- - All rooms are non-smoking, and include air conditioning, cable television, daily housekeeping service, telephones, bathroom amenities, and Internet access. 
- - The room rate includes meals in our award-winning residential restaurants and complimentary access to recreational facilities on campus.
- - Accessible rooms are available upon request.
+### The conference will be held on the UCLA campus at the Carnesale Commons.
+### Special events will be held at the Charles E. Young Research Library and the Powell Library.
+
+![Map of Venues](campus.png)
