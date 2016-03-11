@@ -6,11 +6,10 @@ metadata:
     author: UCLA Library
 published: true
 ---
+# Register Now!
 
-# Registration
-
-### Early registration March 15-April 30: $175
-### Regular registration after May 1: $225
-### Student Registration: $100
-### Pre-conference (agenda forthcoming): $50
-  
+### <a href="https://oss.ticketmaster.com/aps/uclacto/EN/buy/details/m162830" target="_blank">Early registration March 15-April 30: $175</a>
+##### Regular registration after May 1: $225
+### <a href="https://oss.ticketmaster.com/aps/uclacto/EN/buy/details/m162830" target="_blank">Student Registration: $100</a>
+### <a href="https://oss.ticketmaster.com/aps/uclacto/EN/buy/details/m162830" target="_blank">Pre-conference: $50</a>
+##### You may register for the Pre-conference at a later time. Agenda will be announced later.
