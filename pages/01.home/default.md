@@ -7,6 +7,4 @@ metadata:
 ---
 # [Register Now](../04.registration/registration.md)
 
-## [See Keynote Speakers](../02.ndlc-program/program.md)
-
 ## [Reserve Your Room Now](../05.housing/about.md)
