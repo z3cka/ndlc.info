@@ -13,6 +13,8 @@ visible: true
 
 ## Keynote Speakers and Program Session will be announced soon!
 
+### [NDLC Accepted Program](NDLC_Accepted_Program.pdf)
+
 <!--### Opening Keynote, <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, 
 activist and educator-->
 
