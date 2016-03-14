@@ -11,6 +11,6 @@ process:
 visible: true
 ---
 
-## [NDLC Accepted Program](Program_Proposal.pdf)
+## [Accepted Programs](Program_Proposal.pdf)
 
-## [Poster Proposals](Poster_Proposal.pdf)
+## [Accepted Proposals](Poster_Proposal.pdf)
