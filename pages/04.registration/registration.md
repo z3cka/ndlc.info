@@ -16,12 +16,22 @@ metadata:
 ##### You may register for the Pre-conference at a later time. Agenda will be announced later.
 
 
-## <a href="http://www.ucla.edu/maps-directions-parking/">Directions to UCLA</a>
-## <a href="http://www.library.ucla.edu/sites/default/files/libmap_091710.pdf">Campus Libraries Map</a><br /> 
-### <a href="https://main.transportation.ucla.edu/campus-parking">UCLA Parking</a>
+## <a href="http://www.ucla.edu/maps-directions-parking/" target="_blank">Directions to UCLA</a>
+## <a href="http://www.library.ucla.edu/sites/default/files/libmap_091710.pdf" target="_blank">Campus Libraries Map</a><br /> 
+### <a href="https://main.transportation.ucla.edu/campus-parking" target="_blank">UCLA Parking</a>
 
-UCLA offers a wide range of parking options, regular all day parking for visitors can be purchased at <a 
-href="https://main.transportation.ucla.edu/campus-parking/visitors/information-parking-booths">Information &amp; Parking Booths</a> for $12/Day. Please visit the <a href="https://main.transportation.ucla.edu/">UCLA Transportation</a> page for more information on campus parking and transportation services. <br /> <br /> <strong>Ground Transportation from LAX</strong><br /> Please make your own arrangements for airport shuttle service, Flyaway, or taxi from LAX to UCLA for the day of your arrival and departure.</p>
-<a href="http://www.lawa.org/welcome_lax.aspx?id=4698">Westwood Flyaway</a>&nbsp;- $10 one-way fare from LAX to Westwood Village, see website for details<br /> Supershuttle&nbsp;- Outside area reservations 800.258.3826; Local reservation 800.258.3826 or 310.782.6600<br /> Golden West Express&nbsp;- 800.917.5656<br /> Airport Express Shuttle&nbsp;- 310.645.8181<br /> Los Angeles Yellow Cab - 877.733.3305</p>
+UCLA offers a wide range of parking options, regular all day parking for visitors can be purchased at <a href="https://main.transportation.ucla.edu/campus-parking/visitors/information-parking-booths" target="_blank">Information &amp; 
+Parking Booths</a> for $12/Day. Please visit the <a href="https://main.transportation.ucla.edu/" target="_blank">UCLA 
+Transportation</a> page for more information on campus parking and transportation services. <br /> <br /> <strong>Ground Transportation from LAX</strong><br /> Please make your own arrangements for airport shuttle service, Flyaway, or taxi from LAX to UCLA for the day of your arrival and departure.</p>
+<a href="http://www.lawa.org/welcome_lax.aspx?id=4698" target="_blank">Westwood Flyaway</a>&nbsp;- $10 one-way fare from LAX to Westwood Village, see website for details<br /> Supershuttle&nbsp;- Outside area reservations 800.258.3826; Local reservation 800.258.3826 or 310.782.6600<br /> Golden West Express&nbsp;- 800.917.5656<br /> Airport Express Shuttle&nbsp;- 310.645.8181<br /> Los Angeles Yellow Cab - 877.733.3305</p>
+<p>
+    Getting Around the Los Angeles Metro Area
+</p>
+<p>
+    Public Transit Options:
+</p>
+<p>
+    <a href="https://www.metro.net/" target="_blank">LA Metro</a> | <a href="https://www.bigbluebus.com/" target="_blank">Santa Monica Big Blue Bus</a> | <a href="http://www.culvercity.org/enjoy/culver-city-bus" target="_blank">Culver CityBus</a> | <a href="http://www.metrolinktrains.com/" target="_blank">MetroLink</a>
+</p>
 
 
