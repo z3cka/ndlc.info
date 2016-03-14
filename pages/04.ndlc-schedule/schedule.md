@@ -1,5 +1,5 @@
 ---
-title: 'Schedule'
+title: Schedule
 published: true
 metadata:
     description: 'Save the Date for the National Diversity in Libraries Conference (NDLC) 2016 UCLA, Los Angeles, California where library staff discuss issues relating to diversity.'
