@@ -2,11 +2,13 @@
 title: Keynote
 ---
 
-## Keynote Speakers Announced
+#### **Keynote Speakers Announced**
 
-#### **Opening Keynote,** <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, orator, activist, community organizer, workshop facilitator, radio host and poet.
+### **Opening Keynote,** <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, orator, activist, community organizer, workshop facilitator, radio host and poet.
+![Alt text](lakata.png "Lakota Harden, Opening keynote speaker, NDLC")
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-#### **Closing Keynote,** <a href="http://chrisbourg.wordpress.com/about/" target="_blank">Chris Bourg</a>, Director of Libraries at Massachusetts Institute of Technology (MIT)
+### **Closing Keynote,** <a href="http://chrisbourg.wordpress.com/about/" target="_blank">Chris Bourg</a>, Director of Libraries at Massachusetts Institute of Technology (MIT)
 
 #### with <a href="http://www.inthelibrarywiththeleadpipe.org/author/april-hathcock/" target="_blank">April Hathcock</a>, Scholarly Communications Librarian, New York University
 
