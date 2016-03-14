@@ -379,3 +379,7 @@ and (orientation : landscape) {  .fill {
     padding-left: 27px;
   }
 }
+.row div.col-md-7.col-md-offset-1 p img {
+  float: left;
+  padding-right: 12px;
+}
