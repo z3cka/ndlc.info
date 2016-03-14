@@ -10,7 +10,7 @@ title: Keynote
 
 ### **Closing Keynote,** <a href="http://chrisbourg.wordpress.com/about/" target="_blank">Chris Bourg</a>, Director of Libraries at Massachusetts Institute of Technology (MIT)
 
-#### with <a href="http://www.inthelibrarywiththeleadpipe.org/author/april-hathcock/" target="_blank">April Hathcock</a>, Scholarly Communications Librarian, New York University
+### with <a href="http://www.inthelibrarywiththeleadpipe.org/author/april-hathcock/" target="_blank">April Hathcock</a>, Scholarly Communications Librarian, New York University
 
 ![Alt text](bourg.png "Chris Bourg, Director of Libraries, MIT")**Chris Bourg** is the Director of Libraries at Massachusetts Institute of Technology (MIT), where she also has oversight of the MIT Press. Prior to assuming her role at MIT, Chris worked for 12 years in the Stanford University Libraries, must recently as the Associate University Librarian for Public Services. 
 

@@ -7,7 +7,7 @@ metadata:
 ---
 # [Register Now](../05.registration/registration.md)
 
-## [Keynote Speakers](../02.speakers/default.md)
+## [Keynote Speakers](../02.keynote/about.md)
 
 ## [Reserve Your Room Now](../06.housing/about.md)
 
