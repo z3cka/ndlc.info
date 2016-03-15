@@ -307,6 +307,9 @@ h3 {
   font-family: 'PT Sans', sans-serif; }
 
 /*Layout*/
+ul.nav.navbar-nav {
+  padding-left: 7px; }
+
 .col-md-4, .col-md-7 {
   float: left; }
 
