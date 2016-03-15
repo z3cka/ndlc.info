@@ -13,4 +13,4 @@ visible: true
 
 ## [Accepted Programs](Program_Proposal.pdf)
 
-## [Accepted Proposals](Poster_Proposal.pdf)
+## [Accepted Posters](Poster_Proposal.pdf)
