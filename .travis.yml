@@ -21,5 +21,5 @@ before_script:
    - sudo service apache2 restart
    # install behat
    - composer install -d tests/behat
-   - composer create-project getgrav/grav ~/webroot/grav
-   - echo "%TRAVIS_BUILD_DIR%"
+   - composer create-project getgrav/grav %TRAVIS_BUILD_DIR%
+  # - echo
