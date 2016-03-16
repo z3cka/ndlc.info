@@ -20,4 +20,4 @@ before_script:
    - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
    - sudo service apache2 restart
    # install behat
-   - sudo composer install -d tests/behat
+   - composer install -d tests/behat
