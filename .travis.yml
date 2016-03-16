@@ -22,4 +22,4 @@ before_script:
    # install behat
    - composer install -d tests/behat
    - composer create-project getgrav/grav %TRAVIS_BUILD_DIR%
-  # - echo
+   - cd %TRAVIS_BUILD_DIR%; pwd
