@@ -28,4 +28,6 @@ before_script:
    - ls -l tests
    - ls -l tests/behat
 script:
-    - tests/behat/bin/behat
+    # make features dir as we have not written any features yet
+    - tests/behat/bin/behat --init
+    - tests/behat/bin/behat -dl
