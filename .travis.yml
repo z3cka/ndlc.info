@@ -25,7 +25,7 @@ before_script:
    # install behat
    - composer install -d tests/behat
    # init Grav
-   - composer create-project getgrav/grav %TRAVIS_BUILD_DIR%
+   - composer create-project getgrav/grav build/z3cka/ndlc.info
    # install grav
 
    - curl localhost
