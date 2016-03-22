@@ -27,11 +27,12 @@ before_script:
    # init Grav
    - composer create-project getgrav/grav build/z3cka/ndlc.info
    - ls -l build/z3cka/ndlc.info
-   # install grav
-
+   # test with simple index.html file to see if apache is accessible
+   - cp src/index.html build/z3cka/ndlc.info/
    - curl localhost
+   
+   # TODO: grav install
 
-   # - cd %TRAVIS_BUILD_DIR%; pwd
    - pwd
    - ls -l
    - ls -l tests
