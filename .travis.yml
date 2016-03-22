@@ -22,8 +22,9 @@ before_script:
    # install behat
    - composer install -d tests/behat
    - composer create-project getgrav/grav %TRAVIS_BUILD_DIR%
-   - cd %TRAVIS_BUILD_DIR%; pwd
-   - ls -l bin
-   - ls -l vendor
+   # - cd %TRAVIS_BUILD_DIR%; pwd
+   - ls -l
+   # - ls -l bin
+   # - ls -l vendor
 script:
     - bin/behat
