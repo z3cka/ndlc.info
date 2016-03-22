@@ -24,4 +24,4 @@ before_script:
    - composer create-project getgrav/grav %TRAVIS_BUILD_DIR%
    - cd %TRAVIS_BUILD_DIR%; pwd
 script:
-    - tests/behat/bin/behat
+    - %TRAVIS_BUILD_DIR%/tests/behat/bin/behat
