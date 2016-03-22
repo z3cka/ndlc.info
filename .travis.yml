@@ -26,6 +26,7 @@ before_script:
    - composer install -d tests/behat
    # init Grav
    - composer create-project getgrav/grav build/z3cka/ndlc.info
+   - ls -l build/z3cka/ndlc.info
    # install grav
 
    - curl localhost
