@@ -27,7 +27,7 @@ before_script:
    # init Grav
    - composer create-project getgrav/grav grav_root
    # install Grav
-   - ./grav_root/bin/grav install
+   - cd grav_root && bin/grav install
    - sudo curl localhost
    - sudo tail /var/log/apache2/access.log
    - sudo tail /var/log/apache2/error.log
