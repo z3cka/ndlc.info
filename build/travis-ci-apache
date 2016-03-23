@@ -3,7 +3,7 @@
 
   DocumentRoot %TRAVIS_BUILD_DIR%
 
-  <Directory "%TRAVIS_BUILD_DIR%">
+  <Directory "%TRAVIS_BUILD_DIR%"/build/z3cka/ndlc.info>
     Options FollowSymLinks MultiViews ExecCGI +Indexes
     AllowOverride All
     Order deny,allow
