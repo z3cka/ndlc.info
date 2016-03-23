@@ -25,10 +25,9 @@ before_script:
    # install behat
    - composer install -d tests/behat
    # init Grav
-   - composer create-project getgrav/grav build/z3cka/ndlc.info
-   - ls -l build/z3cka/ndlc.info
-   # test with simple index.html file to see if apache is accessible
-   - cp src/index.html build/z3cka/ndlc.info/
+   - composer create-project getgrav/grav grav_root
+   # install Grav
+   - ./grav_root/bin/grav install
    - sudo curl localhost
    - sudo tail /var/log/apache2/access.log
    - sudo tail /var/log/apache2/error.log
