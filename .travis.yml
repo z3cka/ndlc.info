@@ -29,9 +29,9 @@ before_script:
    - ls -l build/z3cka/ndlc.info
    # test with simple index.html file to see if apache is accessible
    - cp src/index.html build/z3cka/ndlc.info/
-   - curl localhost
-   - tail /var/log/apache2/access.log
-   - tail /var/log/apache2/error.log
+   - sudo curl localhost
+   - sudo tail /var/log/apache2/access.log
+   - sudo tail /var/log/apache2/error.log
    # TODO: grav install
 
    - pwd
