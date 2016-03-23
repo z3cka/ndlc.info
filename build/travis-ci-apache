@@ -1,7 +1,7 @@
 <VirtualHost *:80>
   # [...]
 
-  DocumentRoot %TRAVIS_BUILD_DIR%
+  DocumentRoot %TRAVIS_BUILD_DIR%/build/z3cka/ndlc.info
 
   <Directory "%TRAVIS_BUILD_DIR%/build/z3cka/ndlc.info">
     Options FollowSymLinks MultiViews ExecCGI +Indexes
