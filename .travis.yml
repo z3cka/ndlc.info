@@ -29,7 +29,7 @@ before_script:
    # link user directory from repo
    # - rm -rf grav_root/user && ln -s ../src/user grav_root/user
    # copy user directory from repo
-   - rm -rf grav_root/user && cp -r ../src/user grav_root/
+   - rm -rf grav_root/user && cp -r src/user grav_root/
    # - ls -l grav_root
    - sudo curl localhost
 ##   # install Grav
