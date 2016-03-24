@@ -27,7 +27,7 @@ before_script:
    # init Grav
    - composer create-project getgrav/grav grav_root
    # link user directory from repo 
-   - rm -rf grav_root/user && ln -s src/user grav_root/user
+   - rm -rf grav_root/user && ln -s ../src/user grav_root/user
    - ls -l grav_root
    # install Grav
    - cd grav_root && bin/grav install
