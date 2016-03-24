@@ -40,4 +40,4 @@ before_script:
 script:
     # make features dir as we have not written any features yet
     - tests/behat/bin/behat --init
-    - tests/behat/bin/behat -dl
+    - tests/behat/bin/behat
