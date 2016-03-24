@@ -38,4 +38,4 @@ before_script:
 
 script:
     # see what behat has
-    - tests/behat/bin/behat --config tests/behat/behat.yml -dl
+    - tests/behat/bin/behat --config tests/behat/behat.yml
