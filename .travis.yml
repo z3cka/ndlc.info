@@ -20,11 +20,11 @@ before_script:
   - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
   # let's look at the apache config
   - cat /etc/apache2/sites-available/default
-  - sudo service apache2 restart
   # install behat
   - composer install -d tests/behat
   # init Grav
-  - composer create-project getgrav/grav-1.0.0-rc.2 grav_root
+  - composer create-project getgrav/grav=1.0.0-rc.2 grav_root
+  - sudo service apache2 restart
   - sudo curl localhost
   # link user directory from repo
   # - rm -rf grav_root/user && ln -s ../src/user grav_root/user
