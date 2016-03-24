@@ -32,13 +32,13 @@ before_script:
    - rm -rf grav_root/user && cp -r src/user grav_root/
    # - ls -l grav_root
    - sudo curl localhost
-##   # install Grav
-##   - cd grav_root && bin/grav install
-##   # clear Grav's cache
-##   - bin/grav clear-cache
-##   - cd ..
-##   # temp simple testing
-##   - sudo curl localhost
+  # install Grav
+  - cd grav_root && bin/grav install
+  # clear Grav's cache
+  - bin/grav clear-cache
+  - cd ..
+  # temp simple testing
+  - sudo curl localhost
    # - sudo tail /var/log/apache2/access.log
    # - sudo tail /var/log/apache2/error.log
 
