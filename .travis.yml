@@ -30,6 +30,8 @@ before_script:
    - ls -l grav_root
    # install Grav
    - cd grav_root && bin/grav install
+   # clear Grav's cache
+   - bin/grav clear-cache
    - cd ..
    # temp simple testing
    # - sudo curl localhost
