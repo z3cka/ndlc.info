@@ -17,7 +17,6 @@ before_script:
    - ~/.phpenv/versions/$(phpenv version-name)/sbin/php-fpm
    # configure apache virtual hosts
    - sudo cp -f build/travis-ci-apache /etc/apache2/sites-available/default
-   # - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
    - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
    # let's look at the apache config
    - cat /etc/apache2/sites-available/default
@@ -33,11 +32,10 @@ before_script:
    - cd grav_root && bin/grav install
    - cd ..
    # temp simple testing
-   - sudo curl localhost
-   - sudo tail /var/log/apache2/access.log
-   - sudo tail /var/log/apache2/error.log
+   # - sudo curl localhost
+   # - sudo tail /var/log/apache2/access.log
+   # - sudo tail /var/log/apache2/error.log
 
 script:
-    # make features dir as we have not written any features yet
-    - tests/behat/bin/behat --init
-    - tests/behat/bin/behat
+    # see what behat has
+    - tests/behat/bin/behat --config tests/behat/behat.yml -dl
