@@ -32,8 +32,12 @@ before_script:
   - rm -rf grav_root/user && cp -r src/user grav_root/
   # - ls -l grav_root
   - sudo curl localhost
+
   # install Grav
   - cd grav_root && bin/grav install
+  - pwd
+  - ls -l 
+  - ls -l user
   # clear Grav's cache
   - bin/grav clear-cache
   - cd ..
