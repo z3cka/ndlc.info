@@ -24,7 +24,7 @@ before_script:
   # install behat
   - composer install -d tests/behat
   # init Grav
-  - composer create-project getgrav/grav grav_root
+  - composer create-project getgrav/grav-1.0.0-rc.2 grav_root
   - sudo curl localhost
   # link user directory from repo
   # - rm -rf grav_root/user && ln -s ../src/user grav_root/user
