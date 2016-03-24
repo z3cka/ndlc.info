@@ -33,7 +33,7 @@ before_script:
    - cd grav_root && bin/grav install
    - cd ..
    # temp simple testing
-   - curl localhost
+   - sudo curl localhost
    - sudo tail /var/log/apache2/access.log
    - sudo tail /var/log/apache2/error.log
 
