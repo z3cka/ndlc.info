@@ -26,17 +26,15 @@ before_script:
    - composer install -d tests/behat
    # init Grav
    - composer create-project getgrav/grav grav_root
+   # link user directory from repo 
+   - rm -rf grav_root/user && ln -s grav_root/user src/user
+   - ls -l grav_root
    # install Grav
    - cd grav_root && bin/grav install
    - sudo curl localhost
    - sudo tail /var/log/apache2/access.log
    - sudo tail /var/log/apache2/error.log
-   # TODO: grav install
 
-   - pwd
-   - ls -l
-   - ls -l tests
-   - ls -l tests/behat
 script:
     # make features dir as we have not written any features yet
     - tests/behat/bin/behat --init
