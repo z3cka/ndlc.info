@@ -27,7 +27,7 @@ visible: true
                     <td>Pre-conference/Conference registration</td>
                 </tr>
                 <tr>
-                    <td>9:00 AM - 3:00 PM</td>
+                    <td>9:00 AM - 4:45 PM</td>
                     <td>Pre-conference</td>
                 </tr>
                 <tr>
@@ -36,11 +36,13 @@ visible: true
                 </tr>
                 <tr>
                     <td>4:00 PM - 5:00 PM</td>
-                    <td>UCLA Campus Tour</td>
+                    <td>UCLA Campus Tour (optional)</td>
                 </tr>
         
                      <td>5:00 PM - 7:00 PM</td>
-                     <td>Tour and Reception &#8212; Young Research Library</td>
+                    
+                     <td>Open House &#8212; <a href="http://www.library.ucla.edu/yrl" 
+                     target="_blank">Charles E. Young Research Library</a></td>
                    </tr>
                                    
                  </tbody>
@@ -82,7 +84,7 @@ visible: true
                 </tr>
                 <tr>
                     <td>6:30 PM</td>
-                    <td>Reception &#8212; Powell Library</td>
+                    <td>Reception &#8212; <a href="http://www.library.ucla.edu/powell" target="_blank"> Powell Library</a></td>
                 </tr>
             </tbody>
             <thead>
@@ -92,10 +94,7 @@ visible: true
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>8:00 AM - 10:30 AM</td>
-                    <td>Registration</td>
-                </tr>
+               
                 <tr>
                     <td>9:00 AM - 10:15 AM</td>
                     <td>Sessions</td>
@@ -118,7 +117,7 @@ visible: true
                     <td> Sessions</td>
                 </tr>
                 <tr>
-                    <td>4:00 PM - 5:00 PM</td>
+                    <td>4:15 PM - 5:30 PM</td>
                     <td>Closing Keynote and Ceremony</td>
                 </tr>
             </tbody>
@@ -131,8 +130,7 @@ visible: true
             <tbody>
                 <tr>
                     <td>9:00 AM - 4:00 PM</td>
-                    <td>Excursion to locations of interest in Los Angeles, using UCLA
-                    transportation.</td>
+                    <td>Excursion to locations of interest in Los Angeles</td>
                 </tr>
             </tbody>
         </table>

@@ -18,5 +18,8 @@ UCLA Carnesale Commons, on the UCLA campus.
  amenities, and Internet access.
 + The room rate includes meals in our award-winning residential restaurants and complimentary access to recreational
   facilities on campus.*
-    ##### *Meal tickets will be available for purchase in the dining halls for those not housing on the UCLA Campus. It is highly recommended that those not housing on campus purchase meal tickets for the dining halls, as off-campus dining options may lead to missing sessions. See schedule (linked) for reference and meal planning.
+    ##### *Meal tickets will be available for purchase in the dining halls for those not housing on the UCLA Campus. 
+    It is highly recommended that those not housing on campus purchase meal tickets for the dining halls, as 
+    off-campus dining options may lead to missing sessions. See [schedule](../04.schedule) for reference and 
+    meal planning.
 + Accessible rooms are available upon request.
