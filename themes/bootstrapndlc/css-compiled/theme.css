@@ -261,6 +261,56 @@ ol.breadcrumb {
 body.fixed-nav {
   padding-top: 50px; }
 
+/*top-level menu*/
+.dropdown-menu {
+  background-color: transparent; }
+
+.caret {
+  display: none; }
+
+/*secondary menu*/
+.ribbon {
+  color: #fff;
+  font-family: "Helvetica neue", sans-serif;
+  font-size: 18px;
+  height: 372px;
+  margin: -20px 0 0 -163px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 191px; }
+
+.ribbon:after, .ribbon:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 70%;
+  background-color: rgba(67, 47, 44, 0.1) !important;
+  top: -10%;
+  z-index: -1;
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52); }
+
+.ribbon:after {
+  transform: skewY(20deg);
+  left: 0; }
+
+.ribbon:before {
+  transform: skewY(-20deg);
+  left: 50%; }
+
+.ribbon ul {
+  padding-left: 0;
+  -webkit-padding-start: 0; }
+
+.ribbon li {
+  padding-bottom: 12px;
+  list-style-type: none; }
+
+.ribbon a.sub-head {
+  line-height: 3; }
+
 /*Changes to form*/
 .form-field .col-sm-10 textarea.form-control {
   margin-top: 20px; }
@@ -282,6 +332,14 @@ body.fixed-nav {
   font-size: 22px; }
 
 /* NDLC styles */
+.float_right {
+  float: right;
+  padding-left: 10px; }
+
+.float_left {
+  float: left;
+  padding-right: 10px; }
+
 iframe, object, embed {
   max-width: 100%; }
 
@@ -337,7 +395,11 @@ ul.nav.navbar-nav {
   background: url(../assets/schedule.jpg) no-repeat;
   background-size: 200%; }
 
-.circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule {
+.circular-sess {
+  background: url(../assets/pink-audience.jpg) no-repeat;
+  background-size: 120%; }
+
+.circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -349,15 +411,40 @@ ul.nav.navbar-nav {
 
 /* Table Styles
 _________________________________________________ */
-.table-striped-column > tbody > tr td:nth-of-type(even) {
-  background-color: #f9f9f9; }
-
-table.table tr th {
-  background-color: #000 !important;
-  color: #fff; }
-
 table.table {
   font-family: "PT Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+
+/*** tables are not tables ***/
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+  width: 100%;
+  border-collapse: collapse; }
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background-color: rgba(67, 47, 44, 0.1) !important;
+  border: 0; }
+
+th {
+  background: #432f3c;
+  color: white;
+  font-weight: bold; }
+
+td, th {
+  padding: 6px;
+  border: 1px solid #fff;
+  text-align: left; }
+
+.table-bordered {
+  border: 1px solid #fff; }
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+  border-bottom-width: 0; }
+
+.table-bordered > thead > tr > th {
+  border: 0 solid #ddd; }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -376,22 +463,6 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #f5f5f5; }
-
-/* Typography */
-/* Tables */
-table {
-  width: 100%;
-  border: 1px solid #f0f0f0;
-  margin: 30px 0; }
-
-th {
-  font-weight: bold;
-  background: #f9f9f9;
-  padding: 5px; }
-
-td {
-  padding: 5px;
-  border: 1px solid #f0f0f0; }
 
 /* Notice Styles */
 blockquote {
@@ -506,6 +577,10 @@ _______________________*/
 html.js.csstransforms3d body {
   font-family: PT Sans, sans-serif; }
 
+/**** MEDIA QUERIES****/
+@media (max-width: 1238px) and (min-width: 1127px) {
+  .ribbon {
+    margin-left: -124px; } }
 /* Large desktop */
 @media (min-width: 1024px) and (max-width: 1180px) {
   .hero-unit {
@@ -520,6 +595,55 @@ html.js.csstransforms3d body {
   span.herotext {
     font-size: 100%;
     padding: 10px 10px 10px 10px; } }
+@media (max-width: 1080px) {
+  .ribbon ul.list-inline {
+    float: left; } }
+@media (min-width: 1420px) {
+  .ribbon {
+    margin-left: -230px;
+    width: 263px;
+    height: 490px;
+    overflow: visible; } }
+@media (max-width: 1420px) {
+  .ribbon {
+    margin-left: 0;
+    width: 900px;
+    height: 147px;
+    border: 1px solid #432f3c;
+    background-color: rgba(67, 47, 44, 0.1) !important; }
+
+  .ribbon:after, .ribbon:before {
+    background-color: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+
+  .ribbon:after {
+    transform: skewY(0deg);
+    left: 0;
+    height: 0; }
+
+  .ribbon:before {
+    transform: skewY(0deg);
+    left: 50%;
+    height: 0; }
+
+  .col-md-7 {
+    clear: both; } }
+@media (max-width: 993px) {
+  .circular-sess {
+    display: none; }
+
+  .ribbon {
+    margin-left: 10px; }
+
+  .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
+    display: none; } }
+@media (max-width: 843px) {
+  .ribbon {
+    width: auto;
+    margin: auto 0;
+    height: auto; } }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
@@ -539,7 +663,10 @@ html.js.csstransforms3d body {
 
   span.herotext {
     font-size: 75%;
-    padding-left: 30px; } }
+    padding-left: 30px; }
+
+  .ribbon ul.list-inline {
+    width: 400px; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .hero-unit {
@@ -554,11 +681,29 @@ html.js.csstransforms3d body {
     line-height: 133%; }
 
   .form-field .col-sm-10 textarea.form-control {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .circular-sess {
+    display: none; }
+
+  .ribbon ul.list-inline {
+    width: 300px;
+    display: inline;
+    background-color: transparent; } }
 /*ipad  mini portrait*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .fill {
-    height: 182px; } }
+    height: 182px; }
+
+  .ribbon {
+    font-size: 20px; } }
+/*ipad  mini landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .ribbon {
+    margin-left: -10px;
+    margin-bottom: 27px;
+    padding-left: 27px;
+    height: auto; } }
 /*iphone 6 portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   .fill {
@@ -590,8 +735,45 @@ html.js.csstransforms3d body {
   span.herotext {
     font-size: 50%;
     padding-left: 27px; } }
-.row div.col-md-7.col-md-offset-1 p img {
-  float: left;
-  padding-right: 12px; }
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%; }
+
+  tr {
+    border: 0 solid #ccc; }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    word-wrap: break-word; }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap; } }
+@media only screen and (max-width: 667px) {
+  .nav > li {
+    padding-left: 7px; }
+
+  .table-responsive {
+    width: 100% !important; }
+
+  .col-md-7 {
+    width: 100% !important; } }
 
 /*# sourceMappingURL=theme.css.map */

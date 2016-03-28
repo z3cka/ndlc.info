@@ -6,14 +6,15 @@ metadata:
     keywords: 'diversity, conference, NDLC, UCLA, Los Angeles, Save, Date, national, 2016, what is diversity, diversity committee, schedule'
     author: 'UCLA Library'
 process:
-    markdown: true
-    twig: true
+markdown: 
+  extra: true
+
 visible: true
 ---
 
 # Tentative Schedule
-<div class="table-responsive">
-        <table class="table table-bordered table-striped">
+<div>
+        <table class="table table-bordered table-striped" (style="width:100%")>
             <thead>
                 <tr>
                     <th>Wednesday, August 10</th>
