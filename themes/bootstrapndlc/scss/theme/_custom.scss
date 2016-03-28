@@ -1,45 +1,85 @@
-/*Changes to form*/
-.form-field .col-sm-10 textarea.form-control {
-  margin-top: 20px;
+/*top-level menu*/
+.dropdown-menu {
+  background-color: transparent;
 }
-/* Constrain the width */
-.container {
-  width: auto;
-  max-width: 960px;
-  padding: 0 15px;
+.caret {
+  display:none;
 }
-
-/* Center the footer text */
-.container .text-muted {
-  margin: 20px 0;
-  text-align: center;
+/*secondary menu*/
+  .ribbon {
+    color: #fff;
+    font-family: "Helvetica neue", sans-serif;
+    font-size: 18px;
+    height: 372px;
+    margin: -20px 0 0 -163px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: 191px;
+  }
+  .ribbon:after,.ribbon:before{
+    position:absolute;
+    content:"";
+    width:50%;
+    height:70%;
+    background-color: rgba(67, 47, 44, .1) !important;
+    top:-10%;
+    z-index:-1;
+    -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.52);
+  }
+  .ribbon:after{
+    transform:skewY(20deg);
+    left:0;
+  }
+  .ribbon:before{
+    transform:skewY(-20deg);
+    left:50%;
+  }
+  .ribbon ul {
+  padding-left: 0;
+  -webkit-padding-start: 0;
 }
-
-/* Make branding more obvious */
-.navbar-inverse .navbar-brand {
-  color: #ccc;
-  font-size: 22px;
+  .ribbon li {
+    padding-bottom: 12px;
+    list-style-type: none;
+  }
+  .ribbon a.sub-head {
+    line-height: 3;
 }
-
-/* NDLC styles */
+  /*Changes to form*/
+  .form-field .col-sm-10 textarea.form-control {
+    margin-top: 20px;
+  }
+  /* Constrain the width */
+  .container {
+    width: auto;
+    max-width: 960px;
+    padding: 0 15px;
+  }
+  /* Center the footer text */
+  .container .text-muted {
+    margin: 20px 0;
+    text-align: center;
+  }
+  /* Make branding more obvious */
+  .navbar-inverse .navbar-brand {
+    color: #ccc;
+    font-size: 22px;
+  }
+  /* NDLC styles */
+.float_right {
+  float:right;
+  padding-left:10px;
+}
+.float_left {
+  float:left;
+  padding-right:10px;
+}
 iframe, object, embed{max-width: 100%;}
 
-body {
-  font-family: 'EB Garamond', serif;
-  font-size: 16px;
-}
-
-h1,h2,h3
-{
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
-}
-h3
-{
-  text-transform:uppercase;
-  font-size:16px;
-}
-
+<<<<<<< Updated upstream
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
   font-family: 'PT Sans', sans-serif;
 }
@@ -114,278 +154,521 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+=======
+  body {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+  }
+>>>>>>> Stashed changes
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
+  h1,h2,h3
+  {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+  }
+  h3
+  {
+    text-transform:uppercase;
+    font-size:16px;
+  }
 
-/* Typography */
+  .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    font-family: 'PT Sans', sans-serif;
+  }
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+  {
+    font-family: 'PT Sans', sans-serif;
+  }
+  .navbar-nav,.btn-default
+  {
+    font-family: 'PT Sans', sans-serif;
+  }
+  /*Layout*/
+  .col-md-4, .col-md-7 {
+    float: left;
+  }
+  .circular {
+    background: url(../assets/ucla.jpg) no-repeat;
+    background-size: 150%;
+  }
+  .circular-program {
+    background: url(../assets/conference_hall_ucla.jpg) no-repeat;
+    background-size: 150%;
+  }
+  .circular-registration {
+    background: url(../assets/img-registration.jpg) no-repeat;
+    background-size: 150%;
+  }
+  .circular-venue {
+    background: url(../assets/Carnesale_Exterior.jpg) no-repeat;
+    background-size: 200%;
+  }
+  .circular-about {
+    background: url(../assets/about.jpg) no-repeat;
+    background-size: 200%;
+  }
+  .circular-schedule {
+    background: url(../assets/schedule.jpg) no-repeat;
+    background-size: 200%;
+  }
+  .circular-sess {
+    background: url(../assets/pink-audience.jpg) no-repeat;
+    background-size: 120%;
+  }
 
-/* Tables */
+  .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border:3px solid #7BAF4D;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-position: center;
+    margin: 10px 0px;
+  }
+  /* Table Styles
+  _________________________________________________ */
+    table.table
+  {
+    font-family: "PT Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  }
+/*** tables are not tables ***/
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
 table {
   width: 100%;
-  border: 1px solid #f0f0f0;
-  margin: 30px 0;
+  border-collapse: collapse;
 }
-
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background-color: rgba(67, 47, 44, .1) !important;
+  border: 0;
+}
 th {
+  background: #432f3c;
+  color: white;
   font-weight: bold;
-  background: #f9f9f9;
-  padding: 5px;
+}
+td, th {
+  padding: 6px;
+  border: 1px solid #fff;
+  text-align: left;
+}
+.table-bordered {
+  border: 1px solid #fff;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border-bottom-width: 0;
+}
+.table-bordered>thead>tr>th {
+  border: 0 solid #ddd;
 }
 
-td {
-  padding: 5px;
-  border: 1px solid #f0f0f0;
-}
+/* Sticky footer styles
+-------------------------------------------------- */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
 
-/* Notice Styles */
-blockquote {
-  padding: 0 0 0 20px !important;
-  font-size: 16px;
-  color: #666;
-}
-blockquote > blockquote > blockquote {
-  margin: 0;
-}
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
 
-blockquote > blockquote > blockquote p {
-  padding: 15px;
-  display: block;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  border: 1px solid #f0f0f0;
-}
+  /* Notice Styles */
+  blockquote {
+    padding: 0 0 0 20px !important;
+    font-size: 16px;
+    color: #666;
+  }
+  blockquote > blockquote > blockquote {
+    margin: 0;
+  }
 
-blockquote > blockquote > blockquote > p {
-  /* Yellow */
-  margin-left: -75px;
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc;
-}
+  blockquote > blockquote > blockquote p {
+    padding: 15px;
+    display: block;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 1px solid #f0f0f0;
+  }
 
-blockquote > blockquote > blockquote > blockquote > p {
-  /* Red */
-  margin-left: -100px;
-  color: #a94442;
-  background-color: #f2dede;
-  border-color: #ebccd1;
-}
+  blockquote > blockquote > blockquote > p {
+    /* Yellow */
+    margin-left: -75px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+  }
 
-blockquote > blockquote > blockquote > blockquote > blockquote > p {
-  /* Blue */
-  margin-left: -125px;
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-}
+  blockquote > blockquote > blockquote > blockquote > p {
+    /* Red */
+    margin-left: -100px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }
 
-blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
-  /* Blue */
-  margin-left: -150px;
-  color: #3c763d;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-}
+  blockquote > blockquote > blockquote > blockquote > blockquote > p {
+    /* Blue */
+    margin-left: -125px;
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+  }
 
-/* custom jumbotron
-__________________________*/
-span.herotext {
-  /*bottom: 610px;*/
-  font-family: sans-serif;
-  font-size: 130%;
-  color: #fff;
-  padding: 30px 0 10px 80px;
-  width: 50%;
-  line-height: 133%;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  float: left;
-}
+  blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
+    /* Blue */
+    margin-left: -150px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
 
-span.herotext a {
-  color: #B9B713;
-  font-weight: 600;
-}
+  /* custom jumbotron
+  __________________________*/
+  span.herotext {
+    /*bottom: 610px;*/
+    font-family: sans-serif;
+    font-size: 130%;
+    color: #fff;
+    padding: 30px 0 10px 80px;
+    width: 50%;
+    line-height: 133%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    float: left;
+  }
 
-.hero-unit {
-  background-image:url(../assets/hero_bg.jpg);
-  background-size:cover;
-  background-color: #EEEEEE;
-  height:360px;
-  margin: -20px 0 20px;
+  span.herotext a {
+    color: #B9B713;
+    font-weight: 600;
+  }
 
-}
-.hero-unit-sm {
-  background-image:url(../assets/sm_header_logo.jpg);
-  background-size:cover;
-  background-color: #EEEEEE;
-  height:100px;
-  margin: -20px 0 20px;
-
-}
-.hero-unit h1 {
-  color: #FFF;
-  font-size: 60px;
-  letter-spacing: -1px;
-  line-height: 1;
-  margin-bottom: 0;
-}
-.hero-unit h2 {
-  font-size: 25px;
-  color: #FFFFFF;
-
-}
-.fill{width:100%;height:307px;background-position:center;background-size:cover;
-}
-
-/*twitter timeline feed
-______________________*/
-.SandboxRoot.env-wide .GridLayoutRow--1and2 .GridLayoutRow-cell--0 .GridLayoutTextOnlyTweet, .SandboxRoot.env-wide .GridLayoutRow--2and1 .GridLayoutRow-cell--2 .GridLayoutTextOnlyTweet {
-  font-size: 1.5rem !important;
-  font-weight: 300;
-}
-.GridLayoutTextOnlyTweet-contents {
-  display: table-cell;
-  vertical-align: top !important;
-}
-.grid-Footer {
-  background-color: #000000;
-  font-size: 0.75rem;
-  padding: 15px;
-}
-
-/*form styles
-_______________________*/
-html.js.csstransforms3d body {
-  font-family: PT Sans, sans-serif;
-}
-/* Large desktop */
-
-@media (min-width: 1024px) and (max-width: 1180px) {
   .hero-unit {
-    height: 360px;
+    background-image:url(../assets/hero_bg.jpg);
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:360px;
+    margin: -20px 0 20px;
+
   }
-  .fill {
-    height: 200px;
+  .hero-unit-sm {
+    background-image:url(../assets/sm_header_logo.jpg);
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:100px;
+    margin: -20px 0 20px;
+
   }
-  .span.herotext {
-    padding-top:10px;
+  .hero-unit h1 {
+    color: #FFF;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
   }
+  .hero-unit h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+
+  }
+  .fill{width:100%;height:307px;background-position:center;background-size:cover;
+  }
+
+  /*twitter timeline feed
+  ______________________*/
+  .SandboxRoot.env-wide .GridLayoutRow--1and2 .GridLayoutRow-cell--0 .GridLayoutTextOnlyTweet, .SandboxRoot.env-wide .GridLayoutRow--2and1 .GridLayoutRow-cell--2 .GridLayoutTextOnlyTweet {
+    font-size: 1.5rem !important;
+    font-weight: 300;
+  }
+  .GridLayoutTextOnlyTweet-contents {
+    display: table-cell;
+    vertical-align: top !important;
+  }
+  .grid-Footer {
+    background-color: #000000;
+    font-size: 0.75rem;
+    padding: 15px;
+  }
+
+  /*form styles
+  _______________________*/
+  html.js.csstransforms3d body {
+    font-family: PT Sans, sans-serif;
+  }
+
+
+/**** MEDIA QUERIES****/
+
+@media (max-width: 1238px) and (min-width: 1127px) {
+  .ribbon {
+    margin-left:-124px;
+ }
+ }
+  /* Large desktop */
+@media (min-width: 1024px) and (max-width: 1180px) {
+    .hero-unit {
+      height: 360px;
+    }
+    .fill {
+      height: 200px;
+    }
+    .span.herotext {
+      padding-top:10px;
+    }
 }
-@media (max-width: 1180px){
+@media (max-width: 1180px) {
     span.herotext {
       font-size: 100%;
       padding: 10px 10px 10px 10px;
+    }
+  }
+@media (max-width: 1080px) {
+    .ribbon ul.list-inline{
+      float:left;
+    }
+  }
+@media (min-width: 1420px) {
+  .ribbon {
+    margin-left: -230px;
+    width: 263px;
+    height: 490px;
+    overflow: visible;
   }
 }
+@media (max-width: 1420px) {
+  .ribbon {
+    margin-left: 0;
+    width: 900px;
+    height: 147px;
+    border: 1px solid #432f3c;
+    background-color: rgba(67, 47, 44, .1) !important;
+    }
+  .ribbon:after,.ribbon:before {
+    background-color: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .ribbon:after{
+    transform:skewY(0deg);
+    left:0;
+    height:0;
+  }
+  .ribbon:before{
+    transform:skewY(0deg);
+    left:50%;
+    height:0;
+  }
+  .col-md-7 {
+    clear: both;
+  }
+}
+@media (max-width: 993px) {
+  .circular-sess{
+    display:none;
+  }
+  .ribbon {
+    margin-left:10px;
+  }
+  .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
+    display: none;
+  }
+}
+@media (max-width: 843px) {
+  .ribbon {
+    width: auto;
+    margin: auto 0;
+    height: auto;
+  }
+}
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero-unit {
+      height: 250px;
+    }
+    .fill {
+    }
+    span.herotext {
+      font-size: 90%;
+      padding-top: 10px;
+      padding-left: 34px;
+    }
+  }
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 767px) {
+    .hero-unit {
+      height: 150px;
+    }
+    .fill {
+      height: 150px;
+    }
+    span.herotext {
+      font-size: 75%;
+      padding-left: 30px;
+    }
+    .ribbon ul.list-inline {
+      width: 400px;
+    }
+  }
 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .hero-unit {
-    height: 250px;
+  /* Landscape phones and down */
+  @media (max-width: 480px) {
+    .hero-unit {
+      height: 100px;
+    }
+    .fill {
+      height: 112px;
+    }
+    span.herotext {
+      font-size: 45%;
+      padding: 10px 25px;
+      line-height: 133%;
+    }
+    .form-field .col-sm-10 textarea.form-control {
+      margin-top: 0;
+    }
+    .circular-sess {
+      display: none;
+    }
+    .ribbon ul.list-inline {
+      width: 300px;
+      display: inline;
+      background-color: transparent;
+    }
   }
-  .fill {
+  /*ipad  mini portrait*/
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+    .fill {
+      height: 182px;
+    }
+    .ribbon {
+      font-size: 20px;
+    }
   }
-  span.herotext {
-    font-size: 90%;
-    padding-top: 10px;
-    padding-left: 34px;
+    /*ipad  mini landscape*/
+    @media only screen
+    and (min-device-width : 768px)
+    and (max-device-width : 1024px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio: 1)  {
+    .ribbon{
+      margin-left: -10px;
+      margin-bottom: 27px;
+      padding-left: 27px;
+      height:auto;
+    }
   }
-}
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  .hero-unit {
-    height:150px;
+  /*iphone 6 portrait*/
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px)
+  and (orientation : portrait) {
+    .fill {
+      height: 82px;
+    }
+    span.herotext {
+      font-size: 45%;
+      padding-left: 20px;
+      padding-top: 5px;
+    }
   }
-  .fill{
-    height:150px;
-  }
-  span.herotext {
-    font-size: 75%;
-    padding-left:30px;
-  }
-}
+  /*iphone 5 and 5s portrait*/
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : portrait) {
+    .fill {
+      height: 75px;
+    }
+    span.herotext {
+      font-size: 45%;
+      padding-left: 16px;
+    }
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  .hero-unit {
-    height:100px;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 16px;
+    }
   }
-  .fill{
-    height:112px;
-  }
-  span.herotext {
-    font-size: 45%;
-    padding: 10px 25px;
-    line-height: 133%;
-  }
-  .form-field .col-sm-10 textarea.form-control {
-    margin-top: 0;
-  }
-}
-/*ipad  mini portrait*/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-  .fill{
-    height:182px;
-  }
-}
-/*iphone 6 portrait*/
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
-  .fill {
-    height: 82px;
-  }
-  span.herotext {
-    font-size: 45%;
-    padding-left: 20px;
-    padding-top: 5px;
-  }
-}
-/*iphone 5 and 5s portrait*/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait) {
-  .fill {
-    height: 75px;
-  }
-  span.herotext {
-    font-size: 45%;
-    padding-left: 16px;
+  /*iphone 5 and 5s landscape*/
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px)
+  and (orientation : landscape) {
+    .fill {
+      height: 122px;
+    }
+    span.herotext {
+      font-size: 50%;
+      padding-left: 27px;
+    }
   }
 
-  h1 {
-    font-size: 18px;
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
   }
-  h2 {
-    font-size: 16px;
+
+  tr {
+    border: 0 solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    word-wrap: break-word;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
   }
 }
-/*iphone 5 and 5s landscape*/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : landscape) {  .fill {
-  height: 122px;
-}
-  span.herotext {
-    font-size: 50%;
-    padding-left: 27px;
+@media only screen and (max-width: 667px) {
+  .nav > li {
+    padding-left: 7px;
   }
-}
-.row div.col-md-7.col-md-offset-1 p img {
-  float: left;
-  padding-right: 12px;
+  .table-responsive {
+    width: 100% !important;
+  }
+  .col-md-7 {
+    width:100% !important;
+  }
 }

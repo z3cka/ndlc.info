@@ -11,4 +11,6 @@ metadata:
 
 ## [Reserve Your Room Now](../06.housing/about.md)
 
+### ARL announces travel scholarships to the NDLC. Details at the <a href="http://www.arl.org/news/arl-news/3957"target="_blank">ARL web site. 
 
+### **Opening Keynote,** <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, orator, activist, community organizer, workshop facilitator, radio host and poet.
