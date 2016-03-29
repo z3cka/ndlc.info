@@ -23,4 +23,25 @@
       </li>
     </ul>
   {% endfor %}
+  <h3>Session Table:</h3>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Format</th>
+      <th>Track</th>
+    </tr>
+    {% for session in sessions %}
+    <tr>
+      <td>{{ session.title }}</td>
+      <td>{{ session.header.taxonomy.format }}</td>
+      <td>
+        <ul>
+          {% for track in session.header.taxonomy.track %}
+            <li>{{ track }}</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
 {% endblock %}
