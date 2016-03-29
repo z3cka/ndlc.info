@@ -1,6 +1,5 @@
 ---
-title: #subjective subject headings
-taxonomy:
+title: "#subjective subject headings"
   format: Individual Presentations
   track: Collections and Access
 ---

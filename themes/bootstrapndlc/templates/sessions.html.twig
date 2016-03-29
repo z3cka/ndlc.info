@@ -1,47 +1,53 @@
 {% extends 'partials/base.html.twig' %}
 {% set sessions = page.collection() %}
 {% block content %}
-  <h1>Sessions</h1>
-  {% for session in sessions %}
-    <h2>{{ session.title }}</h2>
-    <ul>
-      <li><strong>Summary</strong>: <p>{{ session.summary }}</p></li>
-      <li><strong>Format</strong>: {{ session.header.taxonomy.format }}</li>
-      <li><strong>Track</strong>:
-        <ul>
-          {% for track in session.header.taxonomy.track %}
-            <li>{{ track }}</li>
+  <!-- Begin page content -->
+  <!-- Small jumbotron for interior pages-->
+  <div class="hero-unit-sm">
+    <div class="container">
+    </div></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-sm-12">
+        <div class="ribbon">
+          <ul class="list-inline">
+            <a class="sub-head" <a href="{{ base_url_absolute }}/program/">ALL
+              SESSIONS</a><br />
+
+            {% for p in page.find('/program').children if p != page %} <li><a href="{{p.url}}/">{{ p
+                .title}}</a></li>
+            {% endfor %}
+          </ul>
+        </div></div>
+      <div class="col-md-7">
+        <!-- Casey's Table -->
+        <h1>Sessions</h1>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Format</th>
+            <th>Track</th>
+          </tr>
+          {% for session in sessions %}
+            <tr>
+              <td>{{ session.title }}</td>
+              <td>{{ session.header.taxonomy.format }}</td>
+              <td>
+                <ul>
+                  {% for track in session.header.taxonomy.track %}
+                    <li>{{ track }}</li>
+                  {% endfor %}
+                </ul>
+              </td>
+            </tr>
           {% endfor %}
-        </ul>
-      </li>
-      <li><strong>Presenters</strong>:
-        <ul>
-          {% for presenter in session.header.taxonomy.presenters %}
-            <li>{{ presenter.name }}, <i>{{ presenter.title }}</i></li>
-          {% endfor %}  
-        </ul>
-      </li>
-    </ul>
-  {% endfor %}
-  <h3>Session Table:</h3>
-  <table>
-    <tr>
-      <th>Title</th>
-      <th>Format</th>
-      <th>Track</th>
-    </tr>
-    {% for session in sessions %}
-    <tr>
-      <td>{{ session.title }}</td>
-      <td>{{ session.header.taxonomy.format }}</td>
-      <td>
-        <ul>
-          {% for track in session.header.taxonomy.track %}
-            <li>{{ track }}</li>
-          {% endfor %}
-        </ul>
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
+        </table>
+      </div>
+      <div class="col-md-1">
+        <div class="circular-sess"></div>
+
+      </div>
+    </div></div>
+
 {% endblock %}
