@@ -1,32 +1,15 @@
 {% extends 'partials/base.html.twig' %}
-
+{% set collection = page.collection() %}
 {% block content %}
-
-         <!-- Begin page content -->
-         <!-- Small jumbotron for interior pages-->
-         <div class="hero-unit-sm">
-             <div class="container">
-             </div></div>
-
-         <div class="container">
-             <div class="row">
-             <div class="col-md-1 col-sm-12">
-                 <div class="ribbon">
-                     <ul class="list-inline">
-                     <a class="sub-head" <a href="{{ base_url_absolute }}/program/">ALL
-                     SESSIONS</a><br />
-
-                     {% for p in page.find('/program').children if p != page %} <li><a href="{{p.url}}/">{{ p
-                         .title}}</a></li>
-                     {% endfor %}
-                     </ul>
-                 </div></div>
-                 <!-- Example row of columns -->
-                 <div class="col-md-7">
-                     {{ page.content }}
-                 </div>
-                 <div class="col-md-1">
-                     <div class="circular-sess"></div>
-                 </div>
-    </div></div>
+  <h1>Sessions</h1>
+  <ul>
+    {% for child in collection %}
+      <li><h2>{{ child.title }}</h2></li>
+      <ul>
+        <li><strong>Sumary</strong>: <p>{{ child.summary }}</p></li>
+        <li><strong>Format</strong>: {{ child.header.taxonomy.format }}</li>
+        <li><strong>Track</strong>: {{ child.header.taxonomy.track }}</li>
+      </ul>
+    {% endfor %}
+  </ul>
 {% endblock %}
