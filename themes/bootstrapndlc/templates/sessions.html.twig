@@ -1,15 +1,26 @@
 {% extends 'partials/base.html.twig' %}
-{% set collection = page.collection() %}
+{% set sessions = page.collection() %}
 {% block content %}
   <h1>Sessions</h1>
-  <ul>
-    {% for child in collection %}
-      <li><h2>{{ child.title }}</h2></li>
-      <ul>
-        <li><strong>Sumary</strong>: <p>{{ child.summary }}</p></li>
-        <li><strong>Format</strong>: {{ child.header.taxonomy.format }}</li>
-        <li><strong>Track</strong>: {{ child.header.taxonomy.track }}</li>
-      </ul>
-    {% endfor %}
-  </ul>
+  {% for session in sessions %}
+    <h2>{{ session.title }}</h2>
+    <ul>
+      <li><strong>Summary</strong>: <p>{{ session.summary }}</p></li>
+      <li><strong>Format</strong>: {{ session.header.taxonomy.format }}</li>
+      <li><strong>Track</strong>:
+        <ul>
+          {% for track in session.header.taxonomy.track %}
+            <li>{{ track }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      <li><strong>Presenters</strong>:
+        <ul>
+          {% for presenter in session.header.taxonomy.presenters %}
+            <li>{{ presenter.name }}, <i>{{ presenter.title }}</i></li>
+          {% endfor %}  
+        </ul>
+      </li>
+    </ul>
+  {% endfor %}
 {% endblock %}
