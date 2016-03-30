@@ -1,0 +1,15 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+  {% for session in taxonomy.findTaxonomy({'track':page.header.title}) %}
+    {# see what's in the session object: {{ dump(session) }}#}
+    <h2><a href="{{ session.route }}">{{ session.title }}</a></h2>
+    <p><strong>Format: </strong>{{ session.header.taxonomy.format }}</p>
+    <ul>
+      {% for track in session.header.taxonomy.track %}
+        <li>{{ track }}</li>
+      {% endfor %}
+    </ul>
+    {#<p>{{ session.summary }}</p>#}
+  {% endfor %}
+{% endblock %}
