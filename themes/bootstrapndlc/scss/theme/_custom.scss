@@ -48,6 +48,13 @@
   .ribbon a.sub-head {
     line-height: 3;
 }
+ul.sans-bullets {
+  list-style-type: none;
+}
+ul.sans-bullets li {
+  padding-bottom: 12px;
+  text-indent: none;
+}
   /*Changes to form*/
   .form-field .col-sm-10 textarea.form-control {
     margin-top: 20px;
@@ -79,7 +86,6 @@
 }
 iframe, object, embed{max-width: 100%;}
 
-<<<<<<< Updated upstream
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
   font-family: 'PT Sans', sans-serif;
 }
@@ -154,12 +160,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-=======
   body {
     font-family: 'EB Garamond', serif;
     font-size: 16px;
   }
->>>>>>> Stashed changes
 
   h1,h2,h3
   {

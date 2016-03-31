@@ -8,18 +8,18 @@ pages:
   markdown_extra: true
   process:
     markdown: true
-    twig: false
+    twig: true
 
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
   prefix: 'g'
 
 twig:
-  cache: true
-  debug: false
+  cache: false
+  debug: true
   auto_reload: true
   autoescape: false
 
@@ -35,9 +35,7 @@ errors:
   log: true
 
 debugger:
-  enabled: false
-  twig: false
+  enabled: true
+  twig: true
   shutdown:
     close_connection: true
-
-
