@@ -14,5 +14,3 @@ content:
     items:
       '@page': /sessions
 ---
-
-### All Sessions

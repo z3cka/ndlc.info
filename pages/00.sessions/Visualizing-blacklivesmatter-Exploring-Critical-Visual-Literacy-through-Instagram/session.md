@@ -1,5 +1,5 @@
 ---
-title: Visualizing #blacklivesmatter: Exploring Critical Visual Literacy through Instagram
+title: Visualizing&nbsp;#blacklivesmatter: Exploring Critical Visual Literacy through Instagram
 taxonomy:
   format: Individual Presentations
   presenters:

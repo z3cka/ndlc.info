@@ -6,30 +6,21 @@
     <div class="hero-unit-sm">
         <div class="container">
         </div></div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-1 col-sm-12">
-                <div class="ribbon">
-                    <ul class="list-inline">
-                        <a class="sub-head" <a href="{{ base_url_absolute }}/program/">ALL
-                            SESSIONS</a><br />
-
-                        {% for p in page.find('/program').children if p != page %} <li><a href="{{p.url}}/">{{ p
-                                .title}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </div></div>
-            <div class="col-md-7">
-                <!-- Casey's Table -->
-                sessions.html.twig
+    <div class="col-md-1 col-sm-12">
+        {% block submenu %}
+            {% include 'partials/program-submenu.html.twig' %}
+        {% endblock %}
+        </div>
+        </div>
+            <div class="col-md-9">
                 <h3>{{ page.title }}</h3>
-                {{ dump(session.route) }}
-                {{ dump(page.header) }}
                 <table>
                     <tr>
                         <th>Title</th>
-                        <th>Presenters</th>
+                        <th width=40%>Track</th>
                         <th>Format</th>
                     </tr>
                     {% for session in sessions %}
@@ -37,8 +28,8 @@
                             <td><a href="{{ base_url_absolute }}{{ session.route }}">{{ session.title }}</a></td>
                             <td>
                                 <ul>
-                                    {% for presenter in session.header.taxonomy.presenters %}
-                                        <li>{{ presenter.name }}</li>
+                                    {% for track in session.header.taxonomy.track %}
+                                        <li>{{ track }}</li>
                                     {% endfor %}
                                 </ul>
                             </td>
@@ -49,7 +40,6 @@
             </div>
             <div class="col-md-1">
                 <div class="circular-sess"></div>
-
             </div>
         </div></div>
 

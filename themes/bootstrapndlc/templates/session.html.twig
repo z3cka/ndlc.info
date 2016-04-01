@@ -8,39 +8,31 @@
   <div class="container">
     <div class="row">
       <div class="col-md-1 col-sm-12">
-        <div class="ribbon">
-          <ul class="list-inline">
-            <a class="sub-head" <a href="{{ base_url_absolute }}/program/">ALL
-              SESSIONS</a><br />
-
-            {% for p in page.find('/program').children if p != page %} <li><a href="{{p.url}}/">{{ p
-                .title}}</a></li>
-            {% endfor %}
-          </ul>
-        </div></div>
+        {% block submenu %}
+  {% include 'partials/program-submenu.html.twig' %}
+{% endblock %}
+     </div>
       <div class="col-md-7">
         <ul class="sans-bullets">
           <li><h3>{{ header.title }}</h3>
           </li>
-          <li><strong>Presenters</strong>:
+          <li><strong>Presenters</strong>
             <ul class="sans-bullets">
               {% for presenter in header.taxonomy.presenters %}
                 <li>{{ presenter.name }}, <i>{{ presenter.title }}</i></li>
               {% endfor %}
             </ul>
-          <li><strong>Description</strong>: {{ page.content }}
-          <li><strong>Format</strong>: {{ header.taxonomy.format }}</li>
-          <li><strong>Track</strong>:
+          <li><strong>Description</strong><br />
+            {{ page.content }}
+          <li><strong>Format</strong><br />
+            {{ header.taxonomy.format }}</li>
+          <li><strong>Track</strong><br />
             <ul class="sans-bullets">
               {% for track in header.taxonomy.track %}
                 <li>{{ track }}</li>
               {% endfor %}
             </ul>
-            <ul class="sans-bullets">
-              {% for track in session.header.taxonomy.track %}
-              <li>{{ track }}</li>
-            </ul>
-            {% endfor %}
+
           </li>
         </ul>
       </div>
