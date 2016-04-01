@@ -1,0 +1,43 @@
+{% extends 'partials/base.html.twig' %}
+{% block content %}
+  <!-- Begin page content -->
+  <!-- Small jumbotron for interior pages-->
+  <div class="hero-unit-sm">
+    <div class="container">
+    </div></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1 col-sm-12">
+        {% block submenu %}
+  {% include 'partials/program-submenu.html.twig' %}
+{% endblock %}
+     </div>
+      <div class="col-md-7">
+        <ul class="sans-bullets">
+          <li><h3>{{ header.title }}</h3>
+          </li>
+          <li><strong>Presenters</strong>
+            <ul class="sans-bullets">
+              {% for presenter in header.taxonomy.presenters %}
+                <li>{{ presenter.name }}, <i>{{ presenter.title }}</i></li>
+              {% endfor %}
+            </ul>
+          <li><strong>Description</strong><br />
+            {{ page.content }}
+          <li><strong>Format</strong><br />
+            {{ header.taxonomy.format }}</li>
+          <li><strong>Track</strong><br />
+            <ul class="sans-bullets">
+              {% for track in header.taxonomy.track %}
+                <li>{{ track }}</li>
+              {% endfor %}
+            </ul>
+
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-1">
+        <div class="circular-sess"></div>
+      </div>
+    </div></div>
+{% endblock %}

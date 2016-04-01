@@ -9,18 +9,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-1 col-sm-12">
-    <div class="col-md-1 col-sm-12">
-        {% block submenu %}
-            {% include 'partials/program-submenu.html.twig' %}
-        {% endblock %}
-        </div>
-        </div>
+                <div class="col-md-1 col-sm-12">
+                    {% block submenu %}
+                        {% include 'partials/program-submenu.html.twig' %}
+                    {% endblock %}
+                </div>
+            </div>
             <div class="col-md-9">
                 <h3>{{ page.title }}</h3>
                 <table>
                     <tr>
                         <th>Title</th>
-                        <th width=40%>Track</th>
+                        <th width=40%>Presenters</th>
                         <th>Format</th>
                     </tr>
                     {% for session in sessions %}
@@ -28,8 +28,8 @@
                             <td><a href="{{ base_url_absolute }}{{ session.route }}">{{ session.title }}</a></td>
                             <td>
                                 <ul>
-                                    {% for track in session.header.taxonomy.track %}
-                                        <li>{{ track }}</li>
+                                    {% for presenter in session.header.taxonomy.presenters %}
+                                        <li>{{ presenter.name }}</li>
                                     {% endfor %}
                                 </ul>
                             </td>
@@ -42,5 +42,4 @@
                 <div class="circular-sess"></div>
             </div>
         </div></div>
-
 {% endblock %}

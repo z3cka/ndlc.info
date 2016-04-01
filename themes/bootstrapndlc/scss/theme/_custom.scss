@@ -21,7 +21,7 @@
     position:absolute;
     content:"";
     width:50%;
-    height:70%;
+    height:80%;
     background-color: rgba(67, 47, 44, .1) !important;
     top:-10%;
     z-index:-1;
@@ -47,6 +47,23 @@
   }
   .ribbon a.sub-head {
     line-height: 3;
+}
+.ribbon ul.list-inline li a.sub-head-posters {
+  font-size: 18px;
+  margin-left: -10px;
+}
+  /*tracks*/
+
+  ul.sans-bullets {
+    list-style-type: none;
+    padding:0;
+}
+  ul.sans-bullets li {
+    padding-bottom: 12px;
+    text-indent: none;
+}
+  .col-md-9 table tbody tr td {
+    vertical-align: top;
 }
   /*Changes to form*/
   .form-field .col-sm-10 textarea.form-control {
@@ -79,7 +96,6 @@
 }
 iframe, object, embed{max-width: 100%;}
 
-<<<<<<< Updated upstream
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
   font-family: 'PT Sans', sans-serif;
 }
@@ -154,12 +170,10 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
-=======
   body {
     font-family: 'EB Garamond', serif;
     font-size: 16px;
   }
->>>>>>> Stashed changes
 
   h1,h2,h3
   {
@@ -472,7 +486,7 @@ td, th {
     left:50%;
     height:0;
   }
-  .col-md-7 {
+  .col-md-9 {
     clear: both;
   }
 }
@@ -482,6 +496,8 @@ td, th {
   }
   .ribbon {
     margin-left:10px;
+    margin: auto 0 20px;
+    height: auto;
   }
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none;

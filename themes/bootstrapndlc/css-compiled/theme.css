@@ -284,7 +284,7 @@ body.fixed-nav {
   position: absolute;
   content: "";
   width: 50%;
-  height: 70%;
+  height: 80%;
   background-color: rgba(67, 47, 44, 0.1) !important;
   top: -10%;
   z-index: -1;
@@ -310,6 +310,22 @@ body.fixed-nav {
 
 .ribbon a.sub-head {
   line-height: 3; }
+
+.ribbon ul.list-inline li a.sub-head-posters {
+  font-size: 18px;
+  margin-left: -10px; }
+
+/*tracks*/
+ul.sans-bullets {
+  list-style-type: none;
+  padding: 0; }
+
+ul.sans-bullets li {
+  padding-bottom: 12px;
+  text-indent: none; }
+
+.col-md-9 table tbody tr td {
+  vertical-align: top; }
 
 /*Changes to form*/
 .form-field .col-sm-10 textarea.form-control {
@@ -343,6 +359,78 @@ body.fixed-nav {
 iframe, object, embed {
   max-width: 100%; }
 
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  font-family: 'PT Sans', sans-serif; }
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  font-family: 'PT Sans', sans-serif; }
+
+.navbar-nav, .btn-default {
+  font-family: 'PT Sans', sans-serif; }
+
+/*Layout*/
+ul.nav.navbar-nav {
+  padding-left: 7px; }
+
+.col-md-4, .col-md-7 {
+  float: left; }
+
+.circular {
+  background: url(../assets/ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-program {
+  background: url(../assets/conference_hall_ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-registration {
+  background: url(../assets/img-registration.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-venue {
+  background: url(../assets/Carnesale_Exterior.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-about {
+  background: url(../assets/about.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-schedule {
+  background: url(../assets/schedule.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: 3px solid #7BAF4D;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background-position: center;
+  margin: 10px 0px; }
+
+/* Table Styles
+_________________________________________________ */
+.table-striped-column > tbody > tr td:nth-of-type(even) {
+  background-color: #f9f9f9; }
+
+table.table tr th {
+  background-color: #000 !important;
+  color: #fff; }
+
+table.table {
+  font-family: "PT Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
 body {
   font-family: 'EB Garamond', serif;
   font-size: 16px; }
@@ -365,9 +453,6 @@ h3 {
   font-family: 'PT Sans', sans-serif; }
 
 /*Layout*/
-ul.nav.navbar-nav {
-  padding-left: 7px; }
-
 .col-md-4, .col-md-7 {
   float: left; }
 
@@ -628,14 +713,16 @@ html.js.csstransforms3d body {
     left: 50%;
     height: 0; }
 
-  .col-md-7 {
+  .col-md-9 {
     clear: both; } }
 @media (max-width: 993px) {
   .circular-sess {
     display: none; }
 
   .ribbon {
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin: auto 0 20px;
+    height: auto; }
 
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none; } }
