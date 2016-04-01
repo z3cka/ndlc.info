@@ -14,7 +14,6 @@ taxonomy:
   track: 
 	- Collections and Access
 	- Programming, Outreach, and Advocacy
-
 ---
 _Librarians from the Virginia Commonwealth Libraries, United States and York University/Osgoode Hall Law School Libraries, Canada have developed digital projects to build awareness about diversity, racial discrimination, religious persecution and multicultural communities. This combined presentation discusses the unique ways digital projects help us expand the library/librarians' role in promoting widespread, meaningful dialogue, historical awareness, and preservation of indigenous knowledge to diverse audiences._
 
