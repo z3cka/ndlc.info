@@ -9,6 +9,7 @@ process:
     markdown: true
     twig: true
 visible: true
+tepplate: sessions
 ---
 
 ## [Accepted Programs](Program_Proposal.pdf)
