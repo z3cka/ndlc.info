@@ -12,5 +12,5 @@ visible: true
 template: sessions
 content:
     items:
-      '@page': /sessions
+      '@page': /program/sessions
 ---
