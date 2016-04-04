@@ -696,7 +696,7 @@ html.js.csstransforms3d body {
   .ribbon {
     margin-left: 0;
     width: 900px;
-    height: 147px;
+    height: 80%;
     border: 1px solid #432f3c;
     background-color: rgba(67, 47, 44, 0.1) !important; }
 
