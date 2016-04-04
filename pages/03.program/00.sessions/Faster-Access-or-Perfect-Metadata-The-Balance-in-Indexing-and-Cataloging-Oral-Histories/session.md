@@ -20,6 +20,6 @@ _Go For Broke National Education Center (GFBNEC) is building a mixed-media digit
 military service. The project is utilizing the Oral History Metadata Synchronizer (OHMS) to index oral histories at 
 the segment level and more traditional cataloging at the item level.  Tension exists between rich indexing and dissemination with use of the OHMS application and Omeka web-publishing server. The presentation will discuss these conceptual issues such as metadata migration and storage, keyword and subject thesauri development and utilization, tags, automated and manual processes and workflow processes._
 
-**Presented with [#subjective subject headings](/sessions/subjective-subject-headings)**
+**Presented with [#subjective subject headings](/program/sessions/subjective-subject-headings)**
 
 Session titled **Cataloging for Diversity: Limits in Standards and Patron Discovery**
