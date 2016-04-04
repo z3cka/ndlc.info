@@ -1,6 +1,8 @@
 ---
+published: true
+visible: false
 content:
     items:
-      '@page': /program
-published: true
+        '@page': /program
 ---
+

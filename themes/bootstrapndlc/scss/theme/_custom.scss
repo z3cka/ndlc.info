@@ -52,6 +52,9 @@
   font-size: 18px;
   margin-left: -10px;
 }
+.ribbon li:first-of-type {
+  display: none;
+}
   /*tracks*/
 
   ul.sans-bullets {
@@ -486,7 +489,7 @@ td, th {
     left:50%;
     height:0;
   }
-  .col-md-9 {
+  .col-md-7, .col-md-9 {
     clear: both;
   }
 }
