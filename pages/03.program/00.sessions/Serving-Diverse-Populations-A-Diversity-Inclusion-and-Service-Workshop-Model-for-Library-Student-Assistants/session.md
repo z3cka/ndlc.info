@@ -18,7 +18,7 @@ _The Z. Smith Reynolds Library at Wake Forest University values the library as a
  is committed to providing faculty and staff with ample opportunities for diversity and inclusion training. The ZSR 
  Library decided to take this one step further and offer this training to our 200+ student workers. Our presentation will describe the student learning session entitled “Serving Diverse Populations” and the exercises we designed._
 
-**Presented with [Diversity Immersion Institute: Teaching Library Students About Diverse Populations](/sessions/Diversity-Immersion-Institute-Teaching-Library-Students-About-Diverse-Populations)**
+**Presented with [Diversity Immersion Institute: Teaching Library Students About Diverse Populations](/program/sessions/Diversity-Immersion-Institute-Teaching-Library-Students-About-Diverse-Populations)**
 
 Session titled **Scaling Up: The Next Level of Diversity and Inclusion Training** 
 
