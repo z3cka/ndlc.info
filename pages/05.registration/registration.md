@@ -18,9 +18,7 @@ _(Links go to UCLA Central Ticket Office secure site)_
 
 **Cancellation Policy**
 
-   _All cancellations made by May 31st will receive a full refund, minus $20. Cancellations made after May 31st are not 
-subject to a refund._ 
-
+   _All cancellations made by May 31st will receive a full refund, minus $20 processing fee. Cancellations made after May 31st are eligible for a refund._
 
 ## <a href="http://www.ucla.edu/maps-directions-parking/" target="_blank">Directions to UCLA</a>
 ## <a href="http://www.library.ucla.edu/sites/default/files/libmap_091710.pdf" target="_blank">Campus Libraries Map</a><br /> 
