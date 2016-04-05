@@ -8,7 +8,9 @@ markdown:
 #### **Keynote Speakers Announced**
 
 ### **Opening Keynote,** <a href="http://www.speakoutnow.org/speaker/harden-lakota" target="_blank">Lakota Harden</a>, orator, activist, community organizer, workshop facilitator, radio host and poet.
-![Alt text](lakata.png "Lakota Harden, Opening keynote speaker, NDLC")
+![Alt text](lakata.png "Lakota Harden, Opening keynote speaker, NDLC") {.float_left} **Lakota Harden** 
+(Minnecoujou/Yankton Lakota 
+and HoChunk) is an orator, activist, community organizer, workshop facilitator, radio host and poet. She conducts trainings nationwide for adults who work with youth, across lines of gender, race and age to stop violence. As part of these projects, Harden conducts workshops on unlearning racism, sexism and other social oppressions. Her recent activism spans a range of issues, including solidarity efforts for the Idle No More movement, the South Dakota’s Indigenous Women's Network (IWN): Lakota Traditional Birthing Project, and work with OYATE, a Native organization working to see that the lives and histories of Native peoples are portrayed honestly through books. Harden is currently a host on the weekly radio program <a href="https://kpfa.org/program/bay-native-circle/">Bay Native Circle</a> on Pacifica radio station KPFA in the San Francisco Bay Area.
 
 ### **Closing Keynote,** <a href="http://chrisbourg.wordpress.com/about/" target="_blank">Chris Bourg</a>, Director of Libraries at Massachusetts Institute of Technology (MIT)
 
