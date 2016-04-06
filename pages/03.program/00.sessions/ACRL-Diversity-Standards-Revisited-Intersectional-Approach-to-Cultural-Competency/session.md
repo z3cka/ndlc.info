@@ -1,5 +1,5 @@
 ---
-title: We Shall Not Give Up the Fight: Lessons Learned by the ALA Task Force on Equity, Diversity, and Inclusion
+title: ACRL Diversity Standards Revisited: Intersectional Approach to Cultural Competency
 taxonomy:
   format: Roundtable
   presenters:
@@ -16,7 +16,7 @@ taxonomy:
 ---
 _The Association of College and Research Libraries (ACRL) Diversity Committee has taken up the task of revising the ACRL Diversity Standards for greater inclusivity. Initial feedback was gathered through a survey in the summer of 2015. This roundtable will discuss the rationale behind revising the standards, speak to the changing organizational climate in academic libraries around diversity, and share best practices on how to engage with cultural competencies at an academic library._
 
-**Presented with [We Shall Not Give Up the Fight: Lessons Learned by the ALA Task Force on Equity, Diversity, and Inclusion](/program/sessions/We-Need-Diverse-Books-Everywhere-Addressing-Diversity-Across-Multiple-Spaces) **
+**Presented with [We Shall Not Give Up the Fight: Lessons Learned by the ALA Task Force on Equity, Diversity, and Inclusion](/program/sessions/We-Shall-Not-Give-Up-the-Fight-Lessons-Learned-by-the-ALA-Task-Force-on-Equity-Diversity-and-Inclusion) **
 
 Session titled **Library Associations Working for Diversity**
 

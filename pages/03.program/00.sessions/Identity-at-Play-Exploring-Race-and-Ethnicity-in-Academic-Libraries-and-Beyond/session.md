@@ -14,6 +14,6 @@ taxonomy:
 ---
 _Why do mentoring programs that pair Black male librarians see success? Why does a Muslim student approach a librarian wearing a hijab first at the reference desk? Can an instruction session become enriched when a librarian shares personal stories about being first-generation? This panel presentation is an immersion into racial and ethnic identity theory, applied as a framework, in order for participants to develop skills and vocabulary to articulate, recognize, and apply at their institutions._
 
-**Presented with [Leading by Example: A Look at Successful LIS Diversity Initiatives](/program/sessions/Leading-by-Example-A-Look-at-Successful-LIS-Diversity-Initiatives) **
+**Presented with [White Librarianship in Blackface: Oppressive Normativity and Diversity Initiatives in LIS](/program/sessions/White-Librarianship-in-Blackface-Oppressive-Normativity-and-Diversity-Initiatives-in-LIS) **
 
 Session titled **Identity and Librarianship: Race, Ethnicity, and Normativity in Academic Libraries and LIS Diversity Initiatives**
