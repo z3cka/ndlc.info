@@ -417,10 +417,6 @@ _________________________________________________ */
 .table-striped-column > tbody > tr td:nth-of-type(even) {
   background-color: #f9f9f9; }
 
-table.table tr th {
-  background-color: #000 !important;
-  color: #fff; }
-
 table.table {
   font-family: "PT Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
 
@@ -685,7 +681,42 @@ html.js.csstransforms3d body {
     padding: 10px 10px 10px 10px; } }
 @media (max-width: 1080px) {
   .ribbon ul.list-inline {
-    float: left; } }
+    float: left; }
+
+  .circular-sess {
+    width: 200px;
+    height: 200px; }
+
+  /*label data for smaller screens*/
+  .col-md-9 td:nth-of-type(1):before {
+    content: "Title"; }
+
+  .col-md-9 td:nth-of-type(2):before {
+    content: "Track(s)"; }
+
+  .col-md-9 td:nth-of-type(3):before {
+    content: "Format"; }
+
+  td:nth-of-type(4):before {
+    content: ""; }
+
+  td:nth-of-type(5):before {
+    content: ""; }
+
+  td:nth-of-type(6):before {
+    content: ""; }
+
+  td:nth-of-type(7):before {
+    content: ""; }
+
+  td:nth-of-type(8):before {
+    content: ""; }
+
+  td:nth-of-type(9):before {
+    content: ""; }
+
+  td:nth-of-type(10):before {
+    content: ""; } }
 @media (min-width: 1420px) {
   .ribbon {
     margin-left: -230px;
@@ -728,7 +759,32 @@ html.js.csstransforms3d body {
     height: auto; }
 
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
-    display: none; } }
+    display: none; }
+
+  /*introduces hamburger sooner for large menu*/
+  .navbar-header {
+    float: none; }
+
+  .navbar-toggle {
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+  .navbar-collapse.collapse {
+    display: none !important; }
+
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+
+  .navbar-nav > li {
+    float: none; }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
 @media (max-width: 843px) {
   .ribbon {
     width: auto;
@@ -844,8 +900,10 @@ and also iPads specifically.
     border: none;
     border-bottom: 1px solid #eee;
     position: relative;
-    padding-left: 50%;
     word-wrap: break-word; }
+
+  .col-md-9 td {
+    padding-left: 20%; }
 
   td:before {
     /* Now like a table header */
@@ -855,7 +913,22 @@ and also iPads specifically.
     left: 6px;
     width: 45%;
     padding-right: 10px;
-    white-space: nowrap; } }
+    white-space: nowrap; }
+
+  /*hide text in table header*/
+  .col-md-9 th:nth-child(-n+3) {
+    color: #432f3c; }
+
+  /* hides two empty decorative bars*/
+  .col-md-9 th:nth-child(-n+2) {
+    display: none; }
+
+  .col-md-9 h3 {
+    display: none; }
+
+  .col-md-9 th:before {
+    content: "Program";
+    color: #fff; } }
 @media only screen and (max-width: 667px) {
   .nav > li {
     padding-left: 7px; }
