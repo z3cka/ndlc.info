@@ -13,6 +13,6 @@ taxonomy:
 ---
 _The problematic nature of cataloging standards is nothing new to those interested in diversity in libraries and information sciences. In 2008, a call to the profession was sent out about ways to both constructively critique and teach the problematic catalog, but how has the field responded? (Roberto & Berman). Building on this work I want to both examine and propose ways to teach the problematic catalog under a radical lens focusing on student inclusion in the conversation._
 
-**Presented with [Information Literacy Through Personal Narrative: Women’s Studies and the Human Library](/program/sessions/Information-Literacy-Through-Personal-Narrative-Women's-Studies-and-the-Human-Library) **
+**Presented with [Faster Access or Perfect Metadata? The Balance in Indexing and Cataloging Oral Histories](/program/sessions/Faster-Access-or-Perfect-Metadata-The-Balance-in-Indexing-and-Cataloging-Oral-Histories) **
 
-Session titled **Information Literacy Through Different Lenses**
+Session titled **Cataloging for Diversity: Limits in Standards and Patron Discovery**
