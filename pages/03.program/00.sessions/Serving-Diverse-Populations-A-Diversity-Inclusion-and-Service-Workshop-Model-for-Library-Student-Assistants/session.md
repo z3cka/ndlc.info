@@ -11,9 +11,9 @@ taxonomy:
       title: Director of Library Services, Winston-Salem State University
     - name: Hubert Womack
       title: Instruction and Outreach Librarian, Wake Forest University - Z. Smith Reynolds Library
-  track: Personnel, Management, and Organization
+  track:
+    - Personnel, Management, and Organization
 ---
-
 _The Z. Smith Reynolds Library at Wake Forest University values the library as a place where everyone is welcome, and
  is committed to providing faculty and staff with ample opportunities for diversity and inclusion training. The ZSR 
  Library decided to take this one step further and offer this training to our 200+ student workers. Our presentation will describe the student learning session entitled “Serving Diverse Populations” and the exercises we designed._
