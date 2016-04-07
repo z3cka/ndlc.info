@@ -457,9 +457,9 @@ td, th {
     height: 200px;
   }
   /*label data for smaller screens*/
-  body.Program .col-md-9 td:nth-of-type(1):before { content: "Title"; }
-  body.Program .col-md-9 td:nth-of-type(2):before { content: "Track(s)"; }
-  body.Program .col-md-9 td:nth-of-type(3):before { content: "Format"; }
+  body.program .col-md-9 td:nth-of-type(1):before { content: "Title"; }
+  body.program .col-md-9 td:nth-of-type(2):before { content: "Track(s)"; }
+  body.program .col-md-9 td:nth-of-type(3):before { content: "Format"; }
   td:nth-of-type(4):before { content: ""; }
   td:nth-of-type(5):before { content: ""; }
   td:nth-of-type(6):before { content: ""; }
@@ -468,11 +468,20 @@ td, th {
   td:nth-of-type(9):before { content: ""; }
   td:nth-of-type(10):before { content: ""; }
   }
-body.Collections.and.Access .col-md-9 td:nth-of-type(1):before, body.Programming,.Outreach,.and.Advocacy .col-md-9 td:nth-of-type(1):before, body.Personnel,.Management,.and.Organization .col-md-9 td:nth-of-type(1):before, body.Challenging.Topics .col-md-9 td:nth-of-type(1):before
+body.collections-and-access .col-md-9 td:nth-of-type(1):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
+body.challenging-topics .col-md-9 td:nth-of-type(1):before
 { content: "Title"; }
-body.Collections.and.Access .col-md-9 td:nth-of-type(2):before, body.Programming,.Outreach,.and.Advocacy .col-md-9 td:nth-of-type(2):before, body.Personnel,.Management,.and.Organization .col-md-9 td:nth-of-type(2):before, body.Challenging.Topics .col-md-9 td:nth-of-type(2):before
+body.collections-and-access .col-md-9 td:nth-of-type(2):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
+body.challenging-topics .col-md-9 td:nth-of-type(2):before
 { content: "Presenter(s)";}
-body.Collections.and.Access .col-md-9 td:nth-of-type(3):before, body.Programming,.Outreach,.and.Advocacy .col-md-9 td:nth-of-type(3):before, body.Personnel,.Management,.and.Organization .col-md-9 td:nth-of-type(3):before, body.Challenging.Topics .col-md-9 td:nth-of-type(3):before
+body.collections-and-access .col-md-9 td:nth-of-type(3):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
+body.challenging-topics .col-md-9 td:nth-of-type(3):before
 { content: "Format";}
 
 @media (min-width: 1420px) {
@@ -744,23 +753,23 @@ only screen and (max-width: 760px),
   .col-md-9 h3 {
     display: none;
   }
-  body.Program .col-md-9 th:before {
+  body.program .col-md-9 th:before {
     content: "All Session Tracks";
     color: #fff;
   }
-  body.Collections.and.Access .col-md-9 th:before {
+  body.collections-and-access .col-md-9 th:before {
     content: "Session Track - Collections and Access";
     color: #fff;
   }
-  body.Programming, .Outreach, .and.Advocacy .col-md-9 th:before {
+  body.programming-outreach-advocacy .col-md-9 th:before {
     content: "Session Track - Programming, Outreach, and Advocacy";
     color: #fff;
   }
-  body.Personnel, .Management, .and.Organization .col-md-9 th:before {
+  body.personnel-management-organization .col-md-9 th:before {
     content: "Session Track - Personnel, Management, and Organization";
     color: #fff;
   }
-  body.Challenging.Topics .col-md-9 th:before {
+  body.challenging-topics .col-md-9 th:before {
     content: "Session Track - Challenging Topics";
     color: #fff;
   }
