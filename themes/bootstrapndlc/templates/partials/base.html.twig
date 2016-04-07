@@ -29,7 +29,7 @@
         {% endblock head%}
     </head>
 
-      <body class="{% block body_classes %}{{ page.header.body_classes }}{% endblock %}">
+      <body class="{% block body_classes %}{{ page.header.title }}{% endblock %}">
         {% if config.plugins.langswitcher.enabled %}
             {% include 'partials/langswitcher.html.twig' %}
         {% endif %}
