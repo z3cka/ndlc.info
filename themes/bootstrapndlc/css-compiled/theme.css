@@ -430,17 +430,58 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px; }
 
+body {
+  font-family: 'EB Garamond',serif;
+  font-size: 16px; }
+
 h1, h2, h3 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans',sans-serif;
   font-weight: 700; }
 
 h3 {
   text-transform: uppercase;
   font-size: 16px; }
 
-h1, h2, h3 {
-  font-family: 'PT Sans',sans-serif;
-  font-weight: 700; }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  font-family: 'PT Sans',sans-serif; }
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  font-family: 'PT Sans',sans-serif; }
+
+.navbar-nav, .btn-default {
+  font-family: 'PT Sans',sans-serif; }
+
+/*Layout*/
+.col-md-4, .col-md-7 {
+  float: left; }
+
+.circular {
+  background: url(../assets/ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-program {
+  background: url(../assets/conference_hall_ucla.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-registration {
+  background: url(../assets/img-registration.jpg) no-repeat;
+  background-size: 150%; }
+
+.circular-venue {
+  background: url(../assets/Carnesale_Exterior.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-about {
+  background: url(../assets/about.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-schedule {
+  background: url(../assets/schedule.jpg) no-repeat;
+  background-size: 200%; }
+
+.circular-sess {
+  background: url(../assets/pink-audience.jpg) no-repeat;
+  background-size: 120%; }
 
 .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
   width: 300px;
@@ -450,10 +491,10 @@ h1, h2, h3 {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   background-position: center;
-  margin: 10px 0px; }
+  margin: 10px 0; }
 
 /* Table Styles
-_________________________________________________ */
+  _________________________________________________ */
 table.table {
   font-family: "PT Sans","Helvetica","Tahoma","Geneva","Arial",sans-serif; }
 
@@ -645,10 +686,12 @@ html.js.csstransforms3d body {
     width: 263px;
     height: 490px;
     overflow: visible; } }
-@media (max-width: 1420px) {
+@media (max-width: 1220px) {
+  .ribbon ul.list-inline {
+    float: left; }
+
   .ribbon {
     margin-left: 0;
-    width: 900px;
     height: 80%;
     width: 662px;
     border: 1px solid #432f3c;
@@ -676,7 +719,8 @@ html.js.csstransforms3d body {
   .ribbon {
     margin-left: 10px;
     margin: auto 0 20px;
-    height: auto; }
+    height: auto;
+    width: 100%; }
 
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none; }
@@ -808,7 +852,8 @@ html.js.csstransforms3d body {
 @media (max-device-width: 1080px) {
   /*hide text in table header*/
   .col-md-9 th:nth-child(-n+3) {
-    color: #432f3c; }
+    color: #432f3c;
+    background-color: #432f3c; }
 
   /* hides two empty decorative bars*/
   .col-md-9 th:nth-child(-n+2) {
@@ -835,7 +880,47 @@ html.js.csstransforms3d body {
 
   body.challenging-topics .col-md-9 th:before {
     content: "Session Track - Challenging Topics";
-    color: #fff; } }
+    color: #fff; }
+
+  /*label data for smaller screens*/
+  body.program .col-md-9 td:nth-of-type(1):before {
+    content: "Title"; }
+
+  body.program .col-md-9 td:nth-of-type(2):before {
+    content: "Track(s)"; }
+
+  body.program .col-md-9 td:nth-of-type(3):before {
+    content: "Format"; }
+
+  td:nth-of-type(4):before {
+    content: ""; }
+
+  td:nth-of-type(5):before {
+    content: ""; }
+
+  td:nth-of-type(6):before {
+    content: ""; }
+
+  td:nth-of-type(7):before {
+    content: ""; }
+
+  td:nth-of-type(8):before {
+    content: ""; }
+
+  td:nth-of-type(9):before {
+    content: ""; }
+
+  td:nth-of-type(10):before {
+    content: ""; }
+
+  body.collections-and-access .col-md-9 td:nth-of-type(1):before, body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before, body.personnel-management-organization .col-md-9 td:nth-of-type(1):before, body.challenging-topics .col-md-9 td:nth-of-type(1):before {
+    content: "Title"; }
+
+  body.collections-and-access .col-md-9 td:nth-of-type(2):before, body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before, body.personnel-management-organization .col-md-9 td:nth-of-type(2):before, body.challenging-topics .col-md-9 td:nth-of-type(2):before {
+    content: "Presenter(s)"; }
+
+  body.collections-and-access .col-md-9 td:nth-of-type(3):before, body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before, body.personnel-management-organization .col-md-9 td:nth-of-type(3):before, body.challenging-topics .col-md-9 td:nth-of-type(3):before {
+    content: "Format"; } }
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
