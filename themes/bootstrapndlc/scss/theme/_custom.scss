@@ -449,14 +449,14 @@ td, th {
     }
   }
 @media (max-width: 1080px) {
-  .ribbon ul.list-inline {
-    float: left;
-  }
+    .ribbon ul.list-inline{
+      float:left;
+    }
   .circular-sess {
     width: 200px;
     height: 200px;
   }
-}
+
 @media (min-width: 1420px) {
   .ribbon {
     margin-left: -230px;
@@ -758,22 +758,22 @@ only screen and (max-width: 760px),
   td:nth-of-type(9):before { content: ""; }
   td:nth-of-type(10):before { content: ""; }
 }
-body.collections-and-access .col-md-9 td:nth-of-type(1):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
-body.challenging-topics .col-md-9 td:nth-of-type(1):before
-{ content: "Title"; }
-body.collections-and-access .col-md-9 td:nth-of-type(2):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
-body.challenging-topics .col-md-9 td:nth-of-type(2):before
-{ content: "Presenter(s)";}
-body.collections-and-access .col-md-9 td:nth-of-type(3):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
-body.challenging-topics .col-md-9 td:nth-of-type(3):before
-{ content: "Format";}
-
+  body.collections-and-access .col-md-9 td:nth-of-type(1):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(1):before
+  { content: "Title"; }
+  body.collections-and-access .col-md-9 td:nth-of-type(2):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(2):before
+  { content: "Presenter(s)";}
+  body.collections-and-access .col-md-9 td:nth-of-type(3):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(3):before
+  { content: "Format";}
+}
 @media only screen and (max-width: 667px) {
   .nav > li {
     padding-left: 7px;

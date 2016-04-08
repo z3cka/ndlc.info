@@ -686,13 +686,13 @@ html.js.csstransforms3d body {
   .circular-sess {
     width: 200px;
     height: 200px; } }
-@media (min-width: 1420px) {
+@media (max-width: 1080px) and (min-width: 1420px) {
   .ribbon {
     margin-left: -230px;
     width: 263px;
     height: 490px;
     overflow: visible; } }
-@media (max-width: 1420px) {
+@media (max-width: 1080px) and (max-width: 1420px) {
   .ribbon {
     margin-left: 0;
     width: 900px;
@@ -718,7 +718,7 @@ html.js.csstransforms3d body {
 
   .col-md-7, .col-md-9 {
     clear: both; } }
-@media (max-width: 993px) {
+@media (max-width: 1080px) and (max-width: 993px) {
   .circular-sess {
     display: none; }
 
@@ -764,13 +764,14 @@ html.js.csstransforms3d body {
 
   .collapse.in {
     display: block !important; } }
-@media (max-width: 843px) {
+@media (max-width: 1080px) and (max-width: 843px) {
   .ribbon {
     width: auto;
     margin: auto 0;
     height: auto; } }
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1080px) {
+  /* Portrait tablet to landscape and desktop */ }
+@media (max-width: 1080px) and (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
     height: 250px; }
 
@@ -778,8 +779,9 @@ html.js.csstransforms3d body {
     font-size: 90%;
     padding-top: 10px;
     padding-left: 34px; } }
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
+  /* Landscape phone to portrait tablet */ }
+@media (max-width: 1080px) and (max-width: 767px) {
   .hero-unit {
     height: 150px; }
 
@@ -792,8 +794,9 @@ html.js.csstransforms3d body {
 
   .ribbon ul.list-inline {
     width: 400px; } }
-/* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 1080px) {
+  /* Landscape phones and down */ }
+@media (max-width: 1080px) and (max-width: 480px) {
   .hero-unit {
     height: 100px; }
 
@@ -815,22 +818,25 @@ html.js.csstransforms3d body {
     width: 300px;
     display: inline;
     background-color: transparent; } }
-/*ipad  mini portrait*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media (max-width: 1080px) {
+  /*ipad  mini portrait*/ }
+@media only screen and (max-width: 1080px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .fill {
     height: 182px; }
 
   .ribbon {
     font-size: 20px; } }
-/*ipad  mini landscape*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+@media (max-width: 1080px) {
+  /*ipad  mini landscape*/ }
+@media only screen and (max-width: 1080px) and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
   .ribbon {
     margin-left: -10px;
     margin-bottom: 27px;
     padding-left: 27px;
     height: auto; } }
-/*iphone 6 portrait*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media (max-width: 1080px) {
+  /*iphone 6 portrait*/ }
+@media only screen and (max-width: 1080px) and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   .fill {
     height: 82px; }
 
@@ -838,8 +844,9 @@ html.js.csstransforms3d body {
     font-size: 45%;
     padding-left: 20px;
     padding-top: 5px; } }
-/*iphone 5 and 5s portrait*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+@media (max-width: 1080px) {
+  /*iphone 5 and 5s portrait*/ }
+@media only screen and (max-width: 1080px) and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   .fill {
     height: 75px; }
 
@@ -852,20 +859,22 @@ html.js.csstransforms3d body {
 
   h2 {
     font-size: 16px; } }
-/*iphone 5 and 5s landscape*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+@media (max-width: 1080px) {
+  /*iphone 5 and 5s landscape*/ }
+@media only screen and (max-width: 1080px) and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
   .fill {
     height: 122px; }
 
   span.herotext {
     font-size: 50%;
     padding-left: 27px; } }
-/*
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (max-width: 1080px) {
+  /*
+  Max width before this PARTICULAR table gets nasty
+  This query will take effect for any screen smaller than 760px
+  and also iPads specifically.
+  */ }
+@media only screen and (max-width: 1080px) and (max-width: 760px), (max-width: 1080px) and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Force table to not be like tables anymore */
   table, thead, tbody, th, td, tr {
     display: block;
@@ -955,24 +964,24 @@ and also iPads specifically.
 
   td:nth-of-type(10):before {
     content: ""; } }
-body.collections-and-access .col-md-9 td:nth-of-type(1):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
-body.challenging-topics .col-md-9 td:nth-of-type(1):before {
-  content: "Title"; }
+@media (max-width: 1080px) {
+  body.collections-and-access .col-md-9 td:nth-of-type(1):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(1):before {
+    content: "Title"; }
 
-body.collections-and-access .col-md-9 td:nth-of-type(2):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
-body.challenging-topics .col-md-9 td:nth-of-type(2):before {
-  content: "Presenter(s)"; }
+  body.collections-and-access .col-md-9 td:nth-of-type(2):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(2):before {
+    content: "Presenter(s)"; }
 
-body.collections-and-access .col-md-9 td:nth-of-type(3):before,
-body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
-body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
-body.challenging-topics .col-md-9 td:nth-of-type(3):before {
-  content: "Format"; }
-
+  body.collections-and-access .col-md-9 td:nth-of-type(3):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(3):before {
+    content: "Format"; } }
 @media only screen and (max-width: 667px) {
   .nav > li {
     padding-left: 7px; }
