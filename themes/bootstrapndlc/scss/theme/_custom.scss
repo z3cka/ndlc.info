@@ -9,13 +9,13 @@
   .ribbon {
     color: #fff;
     font-family: "Helvetica neue", sans-serif;
-    font-size: 18px;
-    height: 372px;
+    font-size: 14px;
+    height: 392px;
     margin: -20px 0 0 -163px;
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 191px;
+    width: 210px;
   }
   .ribbon:after,.ribbon:before{
     position:absolute;
@@ -49,7 +49,7 @@
     line-height: 3;
 }
 .ribbon ul.list-inline li a.sub-head-posters {
-  font-size: 18px;
+  font-size: 14px;
   margin-left: -10px;
 }
 .ribbon li:first-of-type {
@@ -425,11 +425,6 @@ td, th {
 
 /**** MEDIA QUERIES****/
 
-@media (max-width: 1238px) and (min-width: 1127px) {
-  .ribbon {
-    margin-left:-124px;
- }
- }
   /* Large desktop */
 @media (min-width: 1024px) and (max-width: 1180px) {
   .hero-unit {
@@ -449,9 +444,6 @@ td, th {
     }
   }
 @media (max-width: 1080px) {
-    .ribbon ul.list-inline{
-      float:left;
-    }
   .circular-sess {
     width: 200px;
     height: 200px;
@@ -465,11 +457,14 @@ td, th {
     overflow: visible;
   }
 }
-@media (max-width: 1420px) {
+  @media (min-width: 380px) and (max-width: 1220px) {
+  .ribbon ul.list-inline{
+    float:left;
+  }
   .ribbon {
     margin-left: 0;
-    width: 900px;
     height: 80%;
+    width: 662px;
     border: 1px solid #432f3c;
     background-color: rgba(67, 47, 44, .1) !important;
     }
@@ -501,6 +496,7 @@ td, th {
     margin-left:10px;
     margin: auto 0 20px;
     height: auto;
+    width:100%;
   }
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none;
@@ -622,12 +618,6 @@ td, th {
     and (max-device-width : 1024px)
     and (orientation : landscape)
     and (-webkit-min-device-pixel-ratio: 1)  {
-    .ribbon{
-      margin-left: -10px;
-      margin-bottom: 27px;
-      padding-left: 27px;
-      height:auto;
-    }
   }
   /*iphone 6 portrait*/
   @media only screen
