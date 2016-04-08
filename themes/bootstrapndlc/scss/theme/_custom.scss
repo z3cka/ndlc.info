@@ -9,13 +9,13 @@
   .ribbon {
     color: #fff;
     font-family: "Helvetica neue", sans-serif;
-    font-size: 14px;
-    height: 392px;
+    font-size: 18px;
+    height: 372px;
     margin: -20px 0 0 -163px;
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 210px;
+    width: 191px;
   }
   .ribbon:after,.ribbon:before{
     position:absolute;
@@ -49,7 +49,7 @@
     line-height: 3;
 }
 .ribbon ul.list-inline li a.sub-head-posters {
-  font-size: 14px;
+  font-size: 18px;
   margin-left: -10px;
 }
 .ribbon li:first-of-type {
@@ -425,6 +425,11 @@ td, th {
 
 /**** MEDIA QUERIES****/
 
+@media (max-width: 1238px) and (min-width: 1127px) {
+  .ribbon {
+    margin-left:-124px;
+ }
+ }
   /* Large desktop */
 @media (min-width: 1024px) and (max-width: 1180px) {
   .hero-unit {
@@ -444,10 +449,40 @@ td, th {
     }
   }
 @media (max-width: 1080px) {
+    .ribbon ul.list-inline{
+      float:left;
+    }
   .circular-sess {
     width: 200px;
     height: 200px;
   }
+  /*label data for smaller screens*/
+  body.program .col-md-9 td:nth-of-type(1):before { content: "Title"; }
+  body.program .col-md-9 td:nth-of-type(2):before { content: "Track(s)"; }
+  body.program .col-md-9 td:nth-of-type(3):before { content: "Format"; }
+  td:nth-of-type(4):before { content: ""; }
+  td:nth-of-type(5):before { content: ""; }
+  td:nth-of-type(6):before { content: ""; }
+  td:nth-of-type(7):before { content: ""; }
+  td:nth-of-type(8):before { content: ""; }
+  td:nth-of-type(9):before { content: ""; }
+  td:nth-of-type(10):before { content: ""; }
+  }
+body.collections-and-access .col-md-9 td:nth-of-type(1):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
+body.challenging-topics .col-md-9 td:nth-of-type(1):before
+{ content: "Title"; }
+body.collections-and-access .col-md-9 td:nth-of-type(2):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
+body.challenging-topics .col-md-9 td:nth-of-type(2):before
+{ content: "Presenter(s)";}
+body.collections-and-access .col-md-9 td:nth-of-type(3):before,
+body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
+body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
+body.challenging-topics .col-md-9 td:nth-of-type(3):before
+{ content: "Format";}
 
 @media (min-width: 1420px) {
   .ribbon {
@@ -457,14 +492,11 @@ td, th {
     overflow: visible;
   }
 }
-  @media (min-width: 380px) and (max-width: 1220px) {
-  .ribbon ul.list-inline{
-    float:left;
-  }
+@media (max-width: 1420px) {
   .ribbon {
     margin-left: 0;
+    width: 900px;
     height: 80%;
-    width: 662px;
     border: 1px solid #432f3c;
     background-color: rgba(67, 47, 44, .1) !important;
     }
@@ -496,7 +528,6 @@ td, th {
     margin-left:10px;
     margin: auto 0 20px;
     height: auto;
-    width:100%;
   }
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none;
@@ -618,6 +649,12 @@ td, th {
     and (max-device-width : 1024px)
     and (orientation : landscape)
     and (-webkit-min-device-pixel-ratio: 1)  {
+    .ribbon{
+      margin-left: -10px;
+      margin-bottom: 27px;
+      padding-left: 27px;
+      height:auto;
+    }
   }
   /*iphone 6 portrait*/
   @media only screen
@@ -736,33 +773,6 @@ only screen and (max-width: 760px),
     content: "Session Track - Challenging Topics";
     color: #fff;
   }
-  /*label data for smaller screens*/
-  body.program .col-md-9 td:nth-of-type(1):before { content: "Title"; }
-  body.program .col-md-9 td:nth-of-type(2):before { content: "Track(s)"; }
-  body.program .col-md-9 td:nth-of-type(3):before { content: "Format"; }
-  td:nth-of-type(4):before { content: ""; }
-  td:nth-of-type(5):before { content: ""; }
-  td:nth-of-type(6):before { content: ""; }
-  td:nth-of-type(7):before { content: ""; }
-  td:nth-of-type(8):before { content: ""; }
-  td:nth-of-type(9):before { content: ""; }
-  td:nth-of-type(10):before { content: ""; }
-}
-  body.collections-and-access .col-md-9 td:nth-of-type(1):before,
-  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
-  body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
-  body.challenging-topics .col-md-9 td:nth-of-type(1):before
-  { content: "Title"; }
-  body.collections-and-access .col-md-9 td:nth-of-type(2):before,
-  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
-  body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
-  body.challenging-topics .col-md-9 td:nth-of-type(2):before
-  { content: "Presenter(s)";}
-  body.collections-and-access .col-md-9 td:nth-of-type(3):before,
-  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
-  body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
-  body.challenging-topics .col-md-9 td:nth-of-type(3):before
-  { content: "Format";}
 }
 @media only screen and (max-width: 667px) {
   .nav > li {
