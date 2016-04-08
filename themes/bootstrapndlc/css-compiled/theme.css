@@ -686,7 +686,7 @@ html.js.csstransforms3d body {
     width: 263px;
     height: 490px;
     overflow: visible; } }
-@media (max-width: 1220px) {
+@media (min-width: 380px) and (max-width: 1220px) {
   .ribbon ul.list-inline {
     float: left; }
 
@@ -720,7 +720,7 @@ html.js.csstransforms3d body {
     margin-left: 10px;
     margin: auto 0 20px;
     height: auto;
-    width: 100%; }
+    width: auto; }
 
   .circular-program, .circular, .circular-registration, .circular-venue, .circular-about, .circular-schedule, .circular-sess {
     display: none; }
