@@ -5,7 +5,7 @@ taxonomy:
   presenters:
     - name: David Hurley
       title: Assistant Professor, College of the University Libraries & Learning Sciences, University of New Mexico 
-    - name: Sarah Kostelecky
+    - name: Sarah Kosteleck
       title: Assistant Professor, College of the University Libraries & Learning Sciences, University of New Mexico
     - name: Lori Townsend
       title: Assistant Professor, College of the University Libraries & Learning Sciences, University of New Mexico
