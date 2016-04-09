@@ -501,6 +501,12 @@ html.js.csstransforms3d body {
     padding: 10px;
   }
 }
+@media (max-width: 1280px) {
+  .circular-sess{
+    width: 250px;
+    height: 250px;
+}
+}
 
 @media (max-width: 1080px) {
   .circular-sess {
@@ -518,7 +524,7 @@ html.js.csstransforms3d body {
   }
 }
 
-@media (min-width: 380px) and (max-width: 1220px) {
+@media (min-width: 280px) and (max-width: 1220px) {
   .ribbon ul.list-inline {
     float: left;
   }
@@ -529,6 +535,7 @@ html.js.csstransforms3d body {
     width: 662px;
     border: 1px solid #432f3c;
     background-color: rgba(67,47,44,.1) !important;
+
   }
 
   .ribbon:after,.ribbon:before {
@@ -613,14 +620,6 @@ html.js.csstransforms3d body {
   }
 }
 
-@media (max-width: 843px) {
-  .ribbon {
-    width: auto;
-    margin: auto 0;
-    height: auto;
-  }
-}
-
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-unit {
@@ -682,7 +681,7 @@ html.js.csstransforms3d body {
   }
 
   .ribbon ul.list-inline {
-    width: 300px;
+    width: 256px;
     display: inline;
     background-color: transparent;
   }
@@ -765,7 +764,8 @@ and (orientation : landscape) {
   }
 }
 
-@media (max-device-width: 1080px) {
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1080px) {
   /*hide text in table header*/
   .col-md-9 th:nth-child(-n+3) {
     color: #432f3c;
@@ -819,55 +819,35 @@ and (orientation : landscape) {
     content: "Format";
   }
 
-  td:nth-of-type(4):before {
-    content: "";
-  }
-
-  td:nth-of-type(5):before {
-    content: "";
-  }
-
-  td:nth-of-type(6):before {
-    content: "";
-  }
-
-  td:nth-of-type(7):before {
-    content: "";
-  }
-
-  td:nth-of-type(8):before {
-    content: "";
-  }
-
-  td:nth-of-type(9):before {
-    content: "";
-  }
-
-  td:nth-of-type(10):before {
-    content: "";
-  }
-
-
-  body.collections-and-access .col-md-9 td:nth-of-type(1):before,body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,body.challenging-topics .col-md-9 td:nth-of-type(1):before {
+  body.collections-and-access .col-md-9 td:nth-of-type(1):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(1):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(1):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(1):before {
     content: "Title";
   }
 
-  body.collections-and-access .col-md-9 td:nth-of-type(2):before,body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,body.challenging-topics .col-md-9 td:nth-of-type(2):before {
+  body.collections-and-access .col-md-9 td:nth-of-type(2):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(2):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(2):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(2):before {
     content: "Presenter(s)";
   }
 
-  body.collections-and-access .col-md-9 td:nth-of-type(3):before,body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,body.challenging-topics .col-md-9 td:nth-of-type(3):before {
+  body.collections-and-access .col-md-9 td:nth-of-type(3):before,
+  body.programming-outreach-advocacy .col-md-9 td:nth-of-type(3):before,
+  body.personnel-management-organization .col-md-9 td:nth-of-type(3):before,
+  body.challenging-topics .col-md-9 td:nth-of-type(3):before {
     content: "Format";
   }
 }
-
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
 @media
-only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1080px) {
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1080px) {
   /* Force table to not be like tables anymore */
   table,thead,tbody,th,td,tr {
     display: block;
