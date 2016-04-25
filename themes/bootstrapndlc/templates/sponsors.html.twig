@@ -1,20 +1,32 @@
 {% extends 'partials/base.html.twig' %}
+
 {% do assets.addCss('https://cdn.rawgit.com/booncon/slippry/master/dist/slippry.css') %}
 {% do assets.addJs('https://cdn.rawgit.com/booncon/slippry/master/dist/slippry.min.js') %}
-{% do assets.addJs('theme://js/custom.js', {group: 'bottom'}) %}
 {% set sponsors = page.collection() %}
+
 {% block content %}
   <h1>Sponsors</h1>
-  <ul id="slippry-sponsors">
+  <ul id="slide-sponsors">
     {% for sponsor in sponsors %}
-      {{ dump(sponsor) }}
       <li>
         <h2>{{ sponsor.title }}</h2>
-        <a href="#slide1"><img src="/user/pages{{ sponsor.route }}/{{ sponsor.folder }}.jpg" alt="Just Do It!"></a>
+        {% for image_key in sponsor.media.images|keys %}
+          <a href="#slide-{{ sponsor.slug }}">{{ sponsor.media[image_key].html(sponsor.title, sponsor.header.alt_text) }}</a>
+        {% endfor %}
       </li>
     {% endfor %}
   </ul>
 {% endblock %}
 {% block bottom %}
   {{ assets.js('bottom') }}
+  <script>
+    $(document).ready(function(){
+      $('#slide-sponsors').slippry({
+        'adaptiveHeight': false,
+        'pause': 6000,
+        'start': 'random',
+        'transition': 'horizontal',
+      });
+    });
+  </script>
 {% endblock %}
